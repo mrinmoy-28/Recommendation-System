@@ -1,0 +1,25 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.1, pytest-8.3.5, pluggy-1.5.0
+rootdir: C:\Users\maji2\OneDrive\Desktop\CLASSROOMCS352_ASS4\recommendation-system
+collected 3 items
+
+tests\test_recommendation_engine.py .F.                                  [100%]
+
+================================== FAILURES ===================================
+____________ test_additional_user_and_collaborative_recommendation ____________
+
+setup_engine = <src.recommendation_engine.RecommendationEngine object at 0x000001313C675040>
+
+    def test_additional_user_and_collaborative_recommendation(setup_engine):
+        engine = setup_engine
+        u2 = engine.add_user('u2', 'User Two')
+        engine.users['u2'].update_preferences({'Action': 0.8})
+        engine.users['u2'].add_viewing_record('c1', 7000, 1.0)
+        engine.users['u2'].add_viewing_record('c2', 7000, 1.0)
+>       engine.content['c1'].ratings['u2'] = 5
+E       AttributeError: 'RecommendationEngine' object has no attribute 'content'
+
+tests\test_recommendation_engine.py:43: AttributeError
+=========================== short test summary info ===========================
+FAILED tests/test_recommendation_engine.py::test_additional_user_and_collaborative_recommendation
+========================= 1 failed, 2 passed in 0.52s =========================

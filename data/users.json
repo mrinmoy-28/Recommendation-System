@@ -1,0 +1,5435 @@
+{
+  "u1": {
+    "username": "User 1",
+    "preferences": {
+      "Action": 0.933698970368994,
+      "Romance": 0.7441989593563328,
+      "Comedy": 0.9508198935565249,
+      "Horror": 0.7654469211079039,
+      "Crime": 0.4937450608812517,
+      "Thriller": 0.35487717452474143,
+      "Fantasy": 0.3215336630685369
+    },
+    "viewing_history": [
+      {
+        "content_id": "c84",
+        "watch_duration": 6168,
+        "completion_percentage": 0.5477299121055509,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 3665,
+        "completion_percentage": 0.8418247817345837,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 7130,
+        "completion_percentage": 0.11493631358761501,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 6072,
+        "completion_percentage": 0.19072539688846102,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 5998,
+        "completion_percentage": 0.22582099104431247,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c4",
+        "watch_duration": 2092,
+        "completion_percentage": 0.9296158138972908,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 2729,
+        "completion_percentage": 0.2343428955469773,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 4866,
+        "completion_percentage": 0.13693584139574394,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 625,
+        "completion_percentage": 0.4643979018601202,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c94",
+        "watch_duration": 6252,
+        "completion_percentage": 0.9089553555010746,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 6759,
+        "completion_percentage": 0.6281704192325602,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 4718,
+        "completion_percentage": 0.5149070381527323,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 5686,
+        "completion_percentage": 0.9027052645876742,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 4989,
+        "completion_percentage": 0.5242642916100145,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 6978,
+        "completion_percentage": 0.7423411341538891,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 3965,
+        "completion_percentage": 0.7644606580118207,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 6656,
+        "completion_percentage": 0.3718033398285182,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 1087,
+        "completion_percentage": 0.21867821693428205,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 5909,
+        "completion_percentage": 0.20669393782903536,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 6471,
+        "completion_percentage": 0.31466152203354614,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 3828,
+        "completion_percentage": 0.7138575413144326,
+        "timestamp": "2025-04-06T23:20:48.622183"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 2607,
+        "completion_percentage": 0.39864839802109553,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 2070,
+        "completion_percentage": 0.7689028520634197,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 6302,
+        "completion_percentage": 0.8173561174704028,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 3031,
+        "completion_percentage": 0.877913017152123,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 1540,
+        "completion_percentage": 0.17836267377597248,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 3395,
+        "completion_percentage": 0.6458551065296244,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 3689,
+        "completion_percentage": 0.4600163183876499,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c145",
+        "watch_duration": 2772,
+        "completion_percentage": 0.7171264779112887,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c133",
+        "watch_duration": 2326,
+        "completion_percentage": 0.5426238885807206,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c108",
+        "watch_duration": 2849,
+        "completion_percentage": 0.6948707745493743,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c62",
+        "watch_duration": 340,
+        "completion_percentage": 0.3607239764785233,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c112",
+        "watch_duration": 3962,
+        "completion_percentage": 0.18884597278054804,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c132",
+        "watch_duration": 6762,
+        "completion_percentage": 0.23430812618116892,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 7174,
+        "completion_percentage": 0.8374508452270472,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 908,
+        "completion_percentage": 0.1604883783782856,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 661,
+        "completion_percentage": 0.38443512845730754,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 4695,
+        "completion_percentage": 0.49115720936552676,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 4799,
+        "completion_percentage": 0.8828817826255014,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      }
+    ]
+  },
+  "u2": {
+    "username": "User 2",
+    "preferences": {
+      "Mystery": 0.7377476339975584,
+      "Drama": 0.5707858752056691,
+      "Documentary": 0.7347832960744702,
+      "Fantasy": 0.5027923273751355,
+      "Comedy": 0.7545559701063265,
+      "Crime": 0.6071807930356854,
+      "Adventure": 0.4414769887683452,
+      "Horror": 0.39985630843318376
+    },
+    "viewing_history": [
+      {
+        "content_id": "c65",
+        "watch_duration": 6394,
+        "completion_percentage": 0.6990279736684799,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 2214,
+        "completion_percentage": 0.33554117947104123,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 2995,
+        "completion_percentage": 0.5313273599474811,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 3261,
+        "completion_percentage": 0.32889008783217916,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c61",
+        "watch_duration": 734,
+        "completion_percentage": 0.31253989464433324,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 6244,
+        "completion_percentage": 0.4063838737718749,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c12",
+        "watch_duration": 6026,
+        "completion_percentage": 0.37197749946862924,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 1108,
+        "completion_percentage": 0.8556897048943681,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 2197,
+        "completion_percentage": 0.5768959429590244,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 6953,
+        "completion_percentage": 0.2383096831822546,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 2677,
+        "completion_percentage": 0.36324896529245543,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 2361,
+        "completion_percentage": 0.9728463569781347,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c28",
+        "watch_duration": 2030,
+        "completion_percentage": 0.8491223229711515,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 607,
+        "completion_percentage": 0.797184998175724,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 2986,
+        "completion_percentage": 0.5987673212363636,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c29",
+        "watch_duration": 5462,
+        "completion_percentage": 0.9162777894473437,
+        "timestamp": "2025-04-25T23:20:48.622183"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 2852,
+        "completion_percentage": 0.4601468100276037,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 5990,
+        "completion_percentage": 0.8741126339800536,
+        "timestamp": "2025-04-24T23:20:48.622183"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 2499,
+        "completion_percentage": 0.3328057911945762,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 6748,
+        "completion_percentage": 0.17282533196313246,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 4810,
+        "completion_percentage": 0.4027991110799727,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c111",
+        "watch_duration": 2743,
+        "completion_percentage": 0.15127200478078165,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 1541,
+        "completion_percentage": 0.8807600406090574,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c106",
+        "watch_duration": 6877,
+        "completion_percentage": 0.8787939913713185,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c51",
+        "watch_duration": 527,
+        "completion_percentage": 0.21144183579004022,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 4391,
+        "completion_percentage": 0.3206523008275407,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c84",
+        "watch_duration": 5915,
+        "completion_percentage": 0.7462171134357455,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 447,
+        "completion_percentage": 0.5004692409269397,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c137",
+        "watch_duration": 2779,
+        "completion_percentage": 0.28990505470997474,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 2320,
+        "completion_percentage": 0.37301370689581415,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c148",
+        "watch_duration": 5319,
+        "completion_percentage": 0.8654359545817392,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      }
+    ]
+  },
+  "u3": {
+    "username": "User 3",
+    "preferences": {
+      "Animation": 0.32532891922265783,
+      "Thriller": 0.4878303774906355,
+      "Action": 0.3152326923699647,
+      "Adventure": 0.31271532478766084,
+      "Comedy": 0.9874115054671577,
+      "Western": 0.6233632892724381,
+      "Sci-Fi": 0.8876719159912634
+    },
+    "viewing_history": [
+      {
+        "content_id": "c88",
+        "watch_duration": 5056,
+        "completion_percentage": 0.2717261075490428,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 196,
+        "completion_percentage": 0.7091239428401896,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 3262,
+        "completion_percentage": 0.41353759158376724,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 904,
+        "completion_percentage": 0.4395062994730382,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 1639,
+        "completion_percentage": 0.25859842541418443,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 5740,
+        "completion_percentage": 0.40856490720473826,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 6991,
+        "completion_percentage": 0.25079204297955227,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c85",
+        "watch_duration": 3498,
+        "completion_percentage": 0.79080561389527,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c9",
+        "watch_duration": 5566,
+        "completion_percentage": 0.3766497670083109,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 3857,
+        "completion_percentage": 0.3676218603277691,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 2007,
+        "completion_percentage": 0.3054908719307091,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c44",
+        "watch_duration": 5298,
+        "completion_percentage": 0.55730974818497,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 2808,
+        "completion_percentage": 0.8213520413484874,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 5830,
+        "completion_percentage": 0.803455487110208,
+        "timestamp": "2025-04-16T23:20:48.622183"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 3664,
+        "completion_percentage": 0.27757336149035083,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 1033,
+        "completion_percentage": 0.5484490321707571,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c28",
+        "watch_duration": 6524,
+        "completion_percentage": 0.6062162417486151,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 6775,
+        "completion_percentage": 0.5613508300762917,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 2671,
+        "completion_percentage": 0.26427313043090306,
+        "timestamp": "2025-04-04T23:20:48.622183"
+      },
+      {
+        "content_id": "c52",
+        "watch_duration": 63,
+        "completion_percentage": 0.6258765772713325,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 1827,
+        "completion_percentage": 0.6443448848516062,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 5498,
+        "completion_percentage": 0.8763797829882511,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 819,
+        "completion_percentage": 0.2119562429493288,
+        "timestamp": "2025-04-10T23:20:48.622183"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 3107,
+        "completion_percentage": 0.3632291691150269,
+        "timestamp": "2025-04-28T23:20:48.622183"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 218,
+        "completion_percentage": 0.861852861303643,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c110",
+        "watch_duration": 3480,
+        "completion_percentage": 0.6194152078018299,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 2991,
+        "completion_percentage": 0.5304346192317873,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c28",
+        "watch_duration": 3640,
+        "completion_percentage": 0.9872281807556995,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c62",
+        "watch_duration": 1838,
+        "completion_percentage": 0.7267009665833145,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c27",
+        "watch_duration": 452,
+        "completion_percentage": 0.859633623070324,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 755,
+        "completion_percentage": 0.2911423081751304,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 5217,
+        "completion_percentage": 0.46271851728450675,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 877,
+        "completion_percentage": 0.2825922786516597,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c51",
+        "watch_duration": 2756,
+        "completion_percentage": 0.46904834443862875,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c12",
+        "watch_duration": 4228,
+        "completion_percentage": 0.14632477502320634,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 6898,
+        "completion_percentage": 0.30658032435876825,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 2305,
+        "completion_percentage": 0.6391543857582949,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 1343,
+        "completion_percentage": 0.15605202263128545,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      }
+    ]
+  },
+  "u4": {
+    "username": "User 4",
+    "preferences": {
+      "Western": 0.6686635716140792,
+      "Comedy": 0.6360359780766169,
+      "Romance": 0.5484778020426614,
+      "Drama": 0.5774459478659633,
+      "Adventure": 0.5107997017458242,
+      "Crime": 0.6354607804552503
+    },
+    "viewing_history": [
+      {
+        "content_id": "c66",
+        "watch_duration": 4976,
+        "completion_percentage": 0.6725462270090873,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 7092,
+        "completion_percentage": 0.322325095891631,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c44",
+        "watch_duration": 6847,
+        "completion_percentage": 0.472296817100461,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 5486,
+        "completion_percentage": 0.8766133128532756,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 2577,
+        "completion_percentage": 0.17415513174483693,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 6399,
+        "completion_percentage": 0.6959581338314562,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 3767,
+        "completion_percentage": 0.5060106398091202,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 5404,
+        "completion_percentage": 0.1798315059599031,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c97",
+        "watch_duration": 4832,
+        "completion_percentage": 0.63651000057654,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 6695,
+        "completion_percentage": 0.1351418068256438,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 894,
+        "completion_percentage": 0.471996384531162,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 3745,
+        "completion_percentage": 0.4941947314122077,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c62",
+        "watch_duration": 3873,
+        "completion_percentage": 0.14684472361251824,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c21",
+        "watch_duration": 1648,
+        "completion_percentage": 0.39501561568122423,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 5661,
+        "completion_percentage": 0.44017149910145037,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 140,
+        "completion_percentage": 0.9282360322053484,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 4784,
+        "completion_percentage": 0.24870733096872794,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c70",
+        "watch_duration": 1575,
+        "completion_percentage": 0.283340129694976,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 917,
+        "completion_percentage": 0.15999808356284143,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 3466,
+        "completion_percentage": 0.6649730949316168,
+        "timestamp": "2025-04-25T23:20:48.622183"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 3413,
+        "completion_percentage": 0.45215300466428876,
+        "timestamp": "2025-04-25T23:20:48.622183"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 2359,
+        "completion_percentage": 0.10883909679767673,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c52",
+        "watch_duration": 647,
+        "completion_percentage": 0.6924603557581239,
+        "timestamp": "2025-04-28T23:20:48.622183"
+      },
+      {
+        "content_id": "c52",
+        "watch_duration": 547,
+        "completion_percentage": 0.3118318375183523,
+        "timestamp": "2025-04-22T23:20:48.622183"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 3593,
+        "completion_percentage": 0.6911502976956948,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c119",
+        "watch_duration": 645,
+        "completion_percentage": 0.2955668692455912,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c148",
+        "watch_duration": 6510,
+        "completion_percentage": 0.2029557564270436,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c29",
+        "watch_duration": 5465,
+        "completion_percentage": 0.4752226031094361,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c146",
+        "watch_duration": 4469,
+        "completion_percentage": 0.6434816817631595,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 2449,
+        "completion_percentage": 0.6267167708068796,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      }
+    ]
+  },
+  "u5": {
+    "username": "User 5",
+    "preferences": {
+      "Drama": 0.3579421368215713,
+      "Sci-Fi": 0.8492892117104451,
+      "Romance": 0.5973462404884171,
+      "Horror": 0.9132542526173846,
+      "Comedy": 0.8835296735247937,
+      "Mystery": 0.8080786278456205
+    },
+    "viewing_history": [
+      {
+        "content_id": "c19",
+        "watch_duration": 4122,
+        "completion_percentage": 0.6803368945983468,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 5963,
+        "completion_percentage": 0.7357524140793901,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 5358,
+        "completion_percentage": 0.32830307722098556,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 2276,
+        "completion_percentage": 0.5850982544864592,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 1220,
+        "completion_percentage": 0.5454957330685771,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 1355,
+        "completion_percentage": 0.3502448092130366,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 4227,
+        "completion_percentage": 0.6571356710772206,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c9",
+        "watch_duration": 5996,
+        "completion_percentage": 0.6458682815176492,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c10",
+        "watch_duration": 3858,
+        "completion_percentage": 0.8687808348054927,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c9",
+        "watch_duration": 3926,
+        "completion_percentage": 0.5566740248262906,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 4096,
+        "completion_percentage": 0.45304468648822205,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 407,
+        "completion_percentage": 0.5437553533816182,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 6865,
+        "completion_percentage": 0.7489563126577982,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 4102,
+        "completion_percentage": 0.15852346988327032,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c61",
+        "watch_duration": 2254,
+        "completion_percentage": 0.5871578205984787,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 4764,
+        "completion_percentage": 0.9333661602241737,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 5753,
+        "completion_percentage": 0.3645441346844731,
+        "timestamp": "2025-04-02T23:20:48.622183"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 1261,
+        "completion_percentage": 0.21318653652483227,
+        "timestamp": "2025-04-18T23:20:48.622183"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 6408,
+        "completion_percentage": 0.4364025245684582,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 2952,
+        "completion_percentage": 0.7351272065826165,
+        "timestamp": "2025-04-18T23:20:48.622183"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 5022,
+        "completion_percentage": 0.7041705618638912,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c97",
+        "watch_duration": 672,
+        "completion_percentage": 0.5316159160081608,
+        "timestamp": "2025-04-19T23:20:48.622183"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 4289,
+        "completion_percentage": 0.6819688291519881,
+        "timestamp": "2025-04-11T23:20:48.622183"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 5144,
+        "completion_percentage": 0.8199391050495977,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 3515,
+        "completion_percentage": 0.8216636212507294,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 2743,
+        "completion_percentage": 0.4290858011676162,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 5889,
+        "completion_percentage": 0.9337706224004496,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 1934,
+        "completion_percentage": 0.6600643551802668,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 1384,
+        "completion_percentage": 0.8089670682194251,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 3512,
+        "completion_percentage": 0.7728490636542388,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 4270,
+        "completion_percentage": 0.7089384057446539,
+        "timestamp": "2025-03-31T23:20:48.622183"
+      },
+      {
+        "content_id": "c40",
+        "watch_duration": 1219,
+        "completion_percentage": 0.8040915081076406,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 5768,
+        "completion_percentage": 0.9387284441721858,
+        "timestamp": "2025-04-07T23:20:48.622183"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 5557,
+        "completion_percentage": 0.16728703239874315,
+        "timestamp": "2025-03-31T23:20:48.622183"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 998,
+        "completion_percentage": 0.6308725662797942,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 1140,
+        "completion_percentage": 0.46263842121754406,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 6518,
+        "completion_percentage": 0.36649372235454447,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c127",
+        "watch_duration": 2887,
+        "completion_percentage": 0.43745597331753394,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 1906,
+        "completion_percentage": 0.46437531036845237,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 4324,
+        "completion_percentage": 0.38808482179345516,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 2981,
+        "completion_percentage": 0.6445849637243981,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 114,
+        "completion_percentage": 0.754212958719199,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 7011,
+        "completion_percentage": 0.6958176249761979,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c101",
+        "watch_duration": 6934,
+        "completion_percentage": 0.7110281017921423,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 6457,
+        "completion_percentage": 0.17003723418493666,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c119",
+        "watch_duration": 3609,
+        "completion_percentage": 0.38072498208414496,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c136",
+        "watch_duration": 1008,
+        "completion_percentage": 0.8683264350921563,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 6108,
+        "completion_percentage": 0.5936450391677333,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 4795,
+        "completion_percentage": 0.8674708350956922,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c140",
+        "watch_duration": 3293,
+        "completion_percentage": 0.4938921152970792,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 2580,
+        "completion_percentage": 0.6552468526897357,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c36",
+        "watch_duration": 3808,
+        "completion_percentage": 0.5364536539271417,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 5367,
+        "completion_percentage": 0.7332223429501259,
+        "timestamp": "2025-04-29T23:24:35.605185"
+      }
+    ]
+  },
+  "u6": {
+    "username": "User 6",
+    "preferences": {
+      "Animation": 0.6833331103392745,
+      "Western": 0.4240000028783026,
+      "Thriller": 0.8572835327324932,
+      "Mystery": 0.7155376422936142,
+      "Adventure": 0.9458094309424625,
+      "Sci-Fi": 0.6144181568991751,
+      "Romance": 0.6231135132626896
+    },
+    "viewing_history": [
+      {
+        "content_id": "c46",
+        "watch_duration": 392,
+        "completion_percentage": 0.6520353518560912,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 5064,
+        "completion_percentage": 0.6956665385277844,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 3026,
+        "completion_percentage": 0.9547960314313451,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c97",
+        "watch_duration": 2069,
+        "completion_percentage": 0.3656219280331654,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 1494,
+        "completion_percentage": 0.32816279801718984,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 3545,
+        "completion_percentage": 0.8593832251634435,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 2261,
+        "completion_percentage": 0.5696575983221689,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 3784,
+        "completion_percentage": 0.8962261245771095,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 4224,
+        "completion_percentage": 0.9779635411936233,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 5668,
+        "completion_percentage": 0.7764142457783301,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c61",
+        "watch_duration": 5312,
+        "completion_percentage": 0.4658523847564311,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 4684,
+        "completion_percentage": 0.8625640406348983,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 5630,
+        "completion_percentage": 0.1259928256541261,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 3523,
+        "completion_percentage": 0.19377274992349652,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c36",
+        "watch_duration": 6697,
+        "completion_percentage": 0.8238340402358181,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c2",
+        "watch_duration": 928,
+        "completion_percentage": 0.8811276332742177,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 1853,
+        "completion_percentage": 0.9198687919778745,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 4297,
+        "completion_percentage": 0.9879004814239776,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c85",
+        "watch_duration": 3011,
+        "completion_percentage": 0.9648824506560583,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 2982,
+        "completion_percentage": 0.20004181045177782,
+        "timestamp": "2025-04-23T23:20:48.622183"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 1992,
+        "completion_percentage": 0.8094541547896102,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c26",
+        "watch_duration": 6948,
+        "completion_percentage": 0.3406348366260079,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 1701,
+        "completion_percentage": 0.4340614569434674,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 2493,
+        "completion_percentage": 0.9111753650288047,
+        "timestamp": "2025-04-06T23:20:48.622183"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 4008,
+        "completion_percentage": 0.530275927825108,
+        "timestamp": "2025-04-07T23:20:48.622183"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 6649,
+        "completion_percentage": 0.6530363969194792,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 3213,
+        "completion_percentage": 0.7034655172942587,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c49",
+        "watch_duration": 5399,
+        "completion_percentage": 0.23279816776456252,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c140",
+        "watch_duration": 2507,
+        "completion_percentage": 0.710957228874006,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 1923,
+        "completion_percentage": 0.8408910152209765,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 103,
+        "completion_percentage": 0.37538224742059645,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c126",
+        "watch_duration": 6188,
+        "completion_percentage": 0.32964189592425963,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c106",
+        "watch_duration": 5591,
+        "completion_percentage": 0.5601979580641869,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c26",
+        "watch_duration": 2802,
+        "completion_percentage": 0.6562242633827968,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 7009,
+        "completion_percentage": 0.394988288615306,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c77",
+        "watch_duration": 1948,
+        "completion_percentage": 0.846623892784434,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 232,
+        "completion_percentage": 0.2626178033733376,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 4130,
+        "completion_percentage": 0.5333342901121167,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 2663,
+        "completion_percentage": 0.31172940636337426,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c59",
+        "watch_duration": 1329,
+        "completion_percentage": 0.3552572724528198,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 2438,
+        "completion_percentage": 0.2554675376003918,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 2357,
+        "completion_percentage": 0.5007757208012107,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 834,
+        "completion_percentage": 0.28384188009973554,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c102",
+        "watch_duration": 4646,
+        "completion_percentage": 0.5926290488130563,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 5341,
+        "completion_percentage": 0.8799688857441629,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 402,
+        "completion_percentage": 0.15126132920362018,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u7": {
+    "username": "User 7",
+    "preferences": {
+      "Mystery": 0.5459021476892197,
+      "Adventure": 0.8866207578047762,
+      "Sci-Fi": 0.5081821970357601,
+      "Documentary": 0.6563144399843305,
+      "Animation": 0.6121111082045492,
+      "Crime": 0.4606126959542049,
+      "Thriller": 0.9239362602830568,
+      "Romance": 0.9816255722204945,
+      "Drama": 0.39091679739874424,
+      "Fantasy": 0.8756342677155107
+    },
+    "viewing_history": [
+      {
+        "content_id": "c73",
+        "watch_duration": 5722,
+        "completion_percentage": 0.6464858254871921,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c74",
+        "watch_duration": 2789,
+        "completion_percentage": 0.3039754840465104,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 1278,
+        "completion_percentage": 0.2321679266273428,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 5433,
+        "completion_percentage": 0.4476892255869639,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 335,
+        "completion_percentage": 0.1558358667123306,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 2753,
+        "completion_percentage": 0.891868025849166,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 6011,
+        "completion_percentage": 0.4100182153808073,
+        "timestamp": "2025-04-24T23:20:48.622183"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 1072,
+        "completion_percentage": 0.7526378966434899,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 4591,
+        "completion_percentage": 0.327375283643195,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 5261,
+        "completion_percentage": 0.15544492782001265,
+        "timestamp": "2025-04-07T23:20:48.622183"
+      },
+      {
+        "content_id": "c94",
+        "watch_duration": 6925,
+        "completion_percentage": 0.7064179796228135,
+        "timestamp": "2025-04-04T23:20:48.622183"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 5700,
+        "completion_percentage": 0.602295136498238,
+        "timestamp": "2025-04-19T23:20:48.622183"
+      },
+      {
+        "content_id": "c105",
+        "watch_duration": 3711,
+        "completion_percentage": 0.9050725510640059,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c77",
+        "watch_duration": 5817,
+        "completion_percentage": 0.2287628308909198,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 5353,
+        "completion_percentage": 0.674625962610317,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c1",
+        "watch_duration": 1438,
+        "completion_percentage": 0.8283689491961562,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 2446,
+        "completion_percentage": 0.20816963308541991,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 765,
+        "completion_percentage": 0.44578426727172793,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c136",
+        "watch_duration": 1136,
+        "completion_percentage": 0.8503691329478826,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 3931,
+        "completion_percentage": 0.5832625759556553,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 5428,
+        "completion_percentage": 0.4007428547734895,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 6018,
+        "completion_percentage": 0.37653392438275324,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c108",
+        "watch_duration": 1271,
+        "completion_percentage": 0.7193613496327371,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 2778,
+        "completion_percentage": 0.25553345955641815,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c117",
+        "watch_duration": 181,
+        "completion_percentage": 0.1579894645324897,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c138",
+        "watch_duration": 5746,
+        "completion_percentage": 0.47085676871960025,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c112",
+        "watch_duration": 4875,
+        "completion_percentage": 0.9542471708015141,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 5470,
+        "completion_percentage": 0.42882720035078814,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 6850,
+        "completion_percentage": 0.2565993299708343,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u8": {
+    "username": "User 8",
+    "preferences": {
+      "Documentary": 0.9530851072432784,
+      "Western": 0.3797999775411799,
+      "Action": 0.4082804983802736,
+      "Sci-Fi": 0.9143932188188326,
+      "Fantasy": 0.7810943653640278,
+      "Drama": 0.4325576367641979,
+      "Comedy": 0.7769401778254703,
+      "Animation": 0.5408499960766452,
+      "Horror": 0.448273978734702,
+      "Adventure": 0.9310130617521191
+    },
+    "viewing_history": [
+      {
+        "content_id": "c35",
+        "watch_duration": 5521,
+        "completion_percentage": 0.3905465792288544,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 1591,
+        "completion_percentage": 0.1930299830449163,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 6455,
+        "completion_percentage": 0.5000165165846107,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 5948,
+        "completion_percentage": 0.3007693420658271,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 1308,
+        "completion_percentage": 0.5268850272730671,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 5027,
+        "completion_percentage": 0.2880284772094692,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 6967,
+        "completion_percentage": 0.7425483891506617,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 6099,
+        "completion_percentage": 0.9678900855348784,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c40",
+        "watch_duration": 842,
+        "completion_percentage": 0.13604011080588527,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 6950,
+        "completion_percentage": 0.872778190422669,
+        "timestamp": "2025-04-24T23:20:48.622183"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 258,
+        "completion_percentage": 0.5164592037202573,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c74",
+        "watch_duration": 773,
+        "completion_percentage": 0.6144092774531134,
+        "timestamp": "2025-04-18T23:20:48.622183"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 2456,
+        "completion_percentage": 0.43553514381832226,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c85",
+        "watch_duration": 2946,
+        "completion_percentage": 0.18392003094115156,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c27",
+        "watch_duration": 2139,
+        "completion_percentage": 0.25902266832960397,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 1459,
+        "completion_percentage": 0.7267755884798798,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 6935,
+        "completion_percentage": 0.5547542212128601,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 1522,
+        "completion_percentage": 0.49558416524891025,
+        "timestamp": "2025-04-05T23:20:48.622183"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 6666,
+        "completion_percentage": 0.7292348222781249,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 5633,
+        "completion_percentage": 0.43119346782533674,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 6629,
+        "completion_percentage": 0.9451562709932666,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 4677,
+        "completion_percentage": 0.5344881457409438,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 129,
+        "completion_percentage": 0.6066033640324302,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c123",
+        "watch_duration": 5822,
+        "completion_percentage": 0.2681524274441841,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 5613,
+        "completion_percentage": 0.9900947687435905,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 4216,
+        "completion_percentage": 0.5569753856231778,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 5654,
+        "completion_percentage": 0.5199058318967857,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 691,
+        "completion_percentage": 0.38747625924328455,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c61",
+        "watch_duration": 2167,
+        "completion_percentage": 0.8837869996515129,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 6278,
+        "completion_percentage": 0.26791647879963076,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c4",
+        "watch_duration": 2713,
+        "completion_percentage": 0.4750487569325589,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 6216,
+        "completion_percentage": 0.615499004091293,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 2748,
+        "completion_percentage": 0.9088138023668813,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 676,
+        "completion_percentage": 0.5232364285211395,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c148",
+        "watch_duration": 3516,
+        "completion_percentage": 0.16785905709974697,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 374,
+        "completion_percentage": 0.7745723128583641,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c150",
+        "watch_duration": 1465,
+        "completion_percentage": 0.5323475827228984,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 2737,
+        "completion_percentage": 0.9417844430573399,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 233,
+        "completion_percentage": 0.9795631161891881,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c123",
+        "watch_duration": 130,
+        "completion_percentage": 0.17769305333359992,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u9": {
+    "username": "User 9",
+    "preferences": {
+      "Drama": 0.6109997835356212,
+      "Western": 0.5337980372990851,
+      "Adventure": 0.9360407808161599,
+      "Mystery": 0.5463553588148904,
+      "Comedy": 0.8838790959440013,
+      "Horror": 0.5252451907342023,
+      "Animation": 0.3348509645224574
+    },
+    "viewing_history": [
+      {
+        "content_id": "c78",
+        "watch_duration": 720,
+        "completion_percentage": 0.15518710380743878,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 1395,
+        "completion_percentage": 0.9886871890561436,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 1575,
+        "completion_percentage": 0.9962991921435417,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 5251,
+        "completion_percentage": 0.6363904513349826,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 4019,
+        "completion_percentage": 0.4346630037180027,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 6806,
+        "completion_percentage": 0.2867754653249928,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 5713,
+        "completion_percentage": 0.6706596128297303,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 6351,
+        "completion_percentage": 0.13585582180852473,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 1159,
+        "completion_percentage": 0.5956564426244367,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 2771,
+        "completion_percentage": 0.6314939128630899,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 4041,
+        "completion_percentage": 0.7901830569711585,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 2222,
+        "completion_percentage": 0.603155463216984,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 4662,
+        "completion_percentage": 0.3792342455693313,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c59",
+        "watch_duration": 5865,
+        "completion_percentage": 0.3402473930948515,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 3406,
+        "completion_percentage": 0.31436887300940264,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 7193,
+        "completion_percentage": 0.8064368348155233,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 936,
+        "completion_percentage": 0.6639193827796572,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 3630,
+        "completion_percentage": 0.40026733014160987,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 6423,
+        "completion_percentage": 0.4820597165462993,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 1203,
+        "completion_percentage": 0.3911936118271918,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 1148,
+        "completion_percentage": 0.3552200963442488,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 584,
+        "completion_percentage": 0.2176241023623634,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 239,
+        "completion_percentage": 0.38483418768335986,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 4607,
+        "completion_percentage": 0.39846200721370095,
+        "timestamp": "2025-04-02T23:20:48.622183"
+      },
+      {
+        "content_id": "c21",
+        "watch_duration": 936,
+        "completion_percentage": 0.5161589708936741,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c10",
+        "watch_duration": 6441,
+        "completion_percentage": 0.5879406382190349,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 3934,
+        "completion_percentage": 0.6928489959548814,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c142",
+        "watch_duration": 3071,
+        "completion_percentage": 0.8072225738672697,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c142",
+        "watch_duration": 6033,
+        "completion_percentage": 0.746899504598981,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c144",
+        "watch_duration": 5529,
+        "completion_percentage": 0.2015262734342641,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c101",
+        "watch_duration": 6667,
+        "completion_percentage": 0.8515941408281946,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 6117,
+        "completion_percentage": 0.6151881343782035,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 7172,
+        "completion_percentage": 0.45162100859556065,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 3267,
+        "completion_percentage": 0.6692381334025276,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 3223,
+        "completion_percentage": 0.12024884560857042,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u10": {
+    "username": "User 10",
+    "preferences": {
+      "Animation": 0.9903662188559181,
+      "Horror": 0.5529845784903548,
+      "Thriller": 0.4102007192718643,
+      "Sci-Fi": 0.4634281684562336,
+      "Comedy": 0.7278424450299399,
+      "Mystery": 0.9820925324283536,
+      "Drama": 0.6904934464239367
+    },
+    "viewing_history": [
+      {
+        "content_id": "c79",
+        "watch_duration": 3032,
+        "completion_percentage": 0.8779539633013087,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 2995,
+        "completion_percentage": 0.4038371455073835,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 5672,
+        "completion_percentage": 0.15617334221502852,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 6221,
+        "completion_percentage": 0.827919659438398,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 565,
+        "completion_percentage": 0.30303941848676763,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 6621,
+        "completion_percentage": 0.7097427402290012,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 5229,
+        "completion_percentage": 0.11440352416785646,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 2129,
+        "completion_percentage": 0.7813684819119725,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 7003,
+        "completion_percentage": 0.4221437710310698,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 1297,
+        "completion_percentage": 0.2609069277628834,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 3373,
+        "completion_percentage": 0.8722082723534405,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 3066,
+        "completion_percentage": 0.7245626366450826,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 103,
+        "completion_percentage": 0.17580009328208512,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 3026,
+        "completion_percentage": 0.35008125140773794,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c30",
+        "watch_duration": 4253,
+        "completion_percentage": 0.8353824763076211,
+        "timestamp": "2025-04-23T23:20:48.622183"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 5244,
+        "completion_percentage": 0.34898301165258855,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 1492,
+        "completion_percentage": 0.7777080070270321,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c70",
+        "watch_duration": 6928,
+        "completion_percentage": 0.36216434841569867,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 1128,
+        "completion_percentage": 0.8676429220449662,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c62",
+        "watch_duration": 2561,
+        "completion_percentage": 0.8788976999615107,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c40",
+        "watch_duration": 762,
+        "completion_percentage": 0.3378696580908227,
+        "timestamp": "2025-04-01T23:20:48.622183"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 1088,
+        "completion_percentage": 0.970299792440963,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 2097,
+        "completion_percentage": 0.473959228991227,
+        "timestamp": "2025-04-05T23:20:48.622183"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 5172,
+        "completion_percentage": 0.8924714438698721,
+        "timestamp": "2025-04-11T23:20:48.622183"
+      },
+      {
+        "content_id": "c10",
+        "watch_duration": 1960,
+        "completion_percentage": 0.24944402257433324,
+        "timestamp": "2025-04-11T23:20:48.622183"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 3199,
+        "completion_percentage": 0.7871714069440704,
+        "timestamp": "2025-04-10T23:20:48.622183"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 5433,
+        "completion_percentage": 0.11564347081361506,
+        "timestamp": "2025-04-07T23:20:48.622183"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 5004,
+        "completion_percentage": 0.3756230305968268,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 6440,
+        "completion_percentage": 0.26677454602228046,
+        "timestamp": "2025-04-10T23:20:48.622183"
+      },
+      {
+        "content_id": "c117",
+        "watch_duration": 2024,
+        "completion_percentage": 0.12937701141328534,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c114",
+        "watch_duration": 669,
+        "completion_percentage": 0.8477539671917701,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 5045,
+        "completion_percentage": 0.9830001131777701,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c149",
+        "watch_duration": 2896,
+        "completion_percentage": 0.36743034935200225,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c116",
+        "watch_duration": 4076,
+        "completion_percentage": 0.8082300638354212,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c146",
+        "watch_duration": 2146,
+        "completion_percentage": 0.9909634549733303,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c108",
+        "watch_duration": 68,
+        "completion_percentage": 0.7903179949002941,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c20",
+        "watch_duration": 5996,
+        "completion_percentage": 0.5117971075802716,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 6798,
+        "completion_percentage": 0.13988128706088204,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 1814,
+        "completion_percentage": 0.36727982676842474,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 2833,
+        "completion_percentage": 0.9129785265518561,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u11": {
+    "username": "User 11",
+    "preferences": {
+      "Romance": 0.47652992175715647,
+      "Thriller": 0.9412247779465566,
+      "Mystery": 0.9419527514596415,
+      "Drama": 0.3321043547021903,
+      "Adventure": 0.5229943115866446,
+      "Sci-Fi": 0.6302501695522091
+    },
+    "viewing_history": [
+      {
+        "content_id": "c100",
+        "watch_duration": 361,
+        "completion_percentage": 0.7167635871665541,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 4368,
+        "completion_percentage": 0.16053616580524135,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 3241,
+        "completion_percentage": 0.6397206916949982,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 339,
+        "completion_percentage": 0.9832357997168314,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 1854,
+        "completion_percentage": 0.7789347856654627,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 2451,
+        "completion_percentage": 0.9249030087966287,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c21",
+        "watch_duration": 444,
+        "completion_percentage": 0.7484553375564432,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c53",
+        "watch_duration": 3021,
+        "completion_percentage": 0.16196933985484158,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 862,
+        "completion_percentage": 0.5468279729332657,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 3899,
+        "completion_percentage": 0.9405339850174126,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c1",
+        "watch_duration": 2082,
+        "completion_percentage": 0.9693516013033703,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 6630,
+        "completion_percentage": 0.18539036895358513,
+        "timestamp": "2025-04-04T23:20:48.622183"
+      },
+      {
+        "content_id": "c2",
+        "watch_duration": 833,
+        "completion_percentage": 0.5391915050939234,
+        "timestamp": "2025-04-22T23:20:48.622183"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 6575,
+        "completion_percentage": 0.6338329896123582,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 6078,
+        "completion_percentage": 0.36153343390115933,
+        "timestamp": "2025-04-10T23:20:48.622183"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 1906,
+        "completion_percentage": 0.9539853579966676,
+        "timestamp": "2025-04-23T23:20:48.622183"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 7034,
+        "completion_percentage": 0.9044701672078926,
+        "timestamp": "2025-04-02T23:20:48.622183"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 4093,
+        "completion_percentage": 0.3710732596792382,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 584,
+        "completion_percentage": 0.42735216078721927,
+        "timestamp": "2025-04-02T23:20:48.622183"
+      },
+      {
+        "content_id": "c97",
+        "watch_duration": 6330,
+        "completion_percentage": 0.8729779839349022,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 1548,
+        "completion_percentage": 0.7095175759929813,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 2956,
+        "completion_percentage": 0.3617593366558295,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 1530,
+        "completion_percentage": 0.3440065772736671,
+        "timestamp": "2025-04-13T23:20:48.622183"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 2914,
+        "completion_percentage": 0.6854843206187698,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c133",
+        "watch_duration": 4040,
+        "completion_percentage": 0.9428408053835655,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 1584,
+        "completion_percentage": 0.7111667203580038,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 3179,
+        "completion_percentage": 0.6739731580284531,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c138",
+        "watch_duration": 6416,
+        "completion_percentage": 0.906828439863564,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c105",
+        "watch_duration": 3156,
+        "completion_percentage": 0.6631985220632624,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 5495,
+        "completion_percentage": 0.9113100400299973,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 2580,
+        "completion_percentage": 0.9649730000493724,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 6838,
+        "completion_percentage": 0.887174239628034,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 4285,
+        "completion_percentage": 0.7213131961362194,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c97",
+        "watch_duration": 5098,
+        "completion_percentage": 0.9776918431828878,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u12": {
+    "username": "User 12",
+    "preferences": {
+      "Documentary": 0.8281677044648414,
+      "Horror": 0.8753532546516458,
+      "Adventure": 0.4760852170052821,
+      "Mystery": 0.8557113555741691,
+      "Crime": 0.8062663013747811,
+      "Action": 0.5381602514225126,
+      "Fantasy": 0.9126417890240679,
+      "Comedy": 0.6058942620488872,
+      "Thriller": 0.5618800082515606,
+      "Sci-Fi": 0.3861422698102134
+    },
+    "viewing_history": [
+      {
+        "content_id": "c44",
+        "watch_duration": 4289,
+        "completion_percentage": 0.6510099629109952,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c44",
+        "watch_duration": 7092,
+        "completion_percentage": 0.25529057741404854,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 3132,
+        "completion_percentage": 0.9449291086914574,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c51",
+        "watch_duration": 1982,
+        "completion_percentage": 0.6659073141196549,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 4153,
+        "completion_percentage": 0.6500853578879494,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c31",
+        "watch_duration": 2762,
+        "completion_percentage": 0.2099656123475251,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 286,
+        "completion_percentage": 0.9671971022885761,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 2990,
+        "completion_percentage": 0.11513525492141802,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 6234,
+        "completion_percentage": 0.2769922956552982,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 5149,
+        "completion_percentage": 0.7302337317361637,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 7188,
+        "completion_percentage": 0.5132711675377943,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 1783,
+        "completion_percentage": 0.7978057915939711,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 5571,
+        "completion_percentage": 0.12439546541693644,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 1094,
+        "completion_percentage": 0.8333626296982422,
+        "timestamp": "2025-04-27T23:20:48.622183"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 1444,
+        "completion_percentage": 0.2781706100455812,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c77",
+        "watch_duration": 4001,
+        "completion_percentage": 0.4414059664525989,
+        "timestamp": "2025-04-29T23:20:48.622183"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 194,
+        "completion_percentage": 0.9262665985434169,
+        "timestamp": "2025-03-31T23:20:48.622183"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 2666,
+        "completion_percentage": 0.806514861167099,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 2383,
+        "completion_percentage": 0.19986082375921657,
+        "timestamp": "2025-04-05T23:20:48.622183"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 2526,
+        "completion_percentage": 0.8892722262855679,
+        "timestamp": "2025-04-16T23:20:48.622183"
+      },
+      {
+        "content_id": "c9",
+        "watch_duration": 4481,
+        "completion_percentage": 0.34745775222950503,
+        "timestamp": "2025-04-16T23:20:48.622183"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 710,
+        "completion_percentage": 0.9131364258586772,
+        "timestamp": "2025-04-06T23:20:48.622183"
+      },
+      {
+        "content_id": "c82",
+        "watch_duration": 6874,
+        "completion_percentage": 0.9047860126090045,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c70",
+        "watch_duration": 3676,
+        "completion_percentage": 0.5834243396088942,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 536,
+        "completion_percentage": 0.17093302374212083,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 4968,
+        "completion_percentage": 0.38579884836782596,
+        "timestamp": "2025-04-05T23:20:48.622183"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 3815,
+        "completion_percentage": 0.2904338332609069,
+        "timestamp": "2025-04-17T23:20:48.622183"
+      },
+      {
+        "content_id": "c136",
+        "watch_duration": 5903,
+        "completion_percentage": 0.9016461839761604,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 2952,
+        "completion_percentage": 0.9090653380272666,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 6795,
+        "completion_percentage": 0.744956283314385,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 3572,
+        "completion_percentage": 0.27776352269129867,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c110",
+        "watch_duration": 5946,
+        "completion_percentage": 0.9990109599458371,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 5847,
+        "completion_percentage": 0.9131216604818981,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 1049,
+        "completion_percentage": 0.9325939237513357,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 5842,
+        "completion_percentage": 0.4901838171969318,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 5242,
+        "completion_percentage": 0.47602210266684175,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c150",
+        "watch_duration": 4563,
+        "completion_percentage": 0.62431834135216,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c110",
+        "watch_duration": 5147,
+        "completion_percentage": 0.38925739308271157,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 1867,
+        "completion_percentage": 0.3700870182297251,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c36",
+        "watch_duration": 366,
+        "completion_percentage": 0.6114088514866453,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c104",
+        "watch_duration": 3240,
+        "completion_percentage": 0.399534871150414,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c140",
+        "watch_duration": 1852,
+        "completion_percentage": 0.4243952836477556,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c145",
+        "watch_duration": 2943,
+        "completion_percentage": 0.20836965666996632,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 1640,
+        "completion_percentage": 0.5683901964607869,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u13": {
+    "username": "User 13",
+    "preferences": {
+      "Fantasy": 0.884421920352868,
+      "Mystery": 0.9429270957293685,
+      "Drama": 0.7455735881424697,
+      "Crime": 0.35250350927834284,
+      "Western": 0.9857036079867141,
+      "Animation": 0.530851056094538,
+      "Thriller": 0.6134991629906233
+    },
+    "viewing_history": [
+      {
+        "content_id": "c70",
+        "watch_duration": 5117,
+        "completion_percentage": 0.5387733951692848,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c2",
+        "watch_duration": 5935,
+        "completion_percentage": 0.12828976627032598,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c49",
+        "watch_duration": 2462,
+        "completion_percentage": 0.3650427373907692,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 6470,
+        "completion_percentage": 0.6782425578253644,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 6173,
+        "completion_percentage": 0.5270175821437237,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 1366,
+        "completion_percentage": 0.587372782004273,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c59",
+        "watch_duration": 277,
+        "completion_percentage": 0.11211393489444768,
+        "timestamp": "2025-04-20T23:20:48.622183"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 3117,
+        "completion_percentage": 0.7711074444284692,
+        "timestamp": "2025-04-10T23:20:48.622183"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 899,
+        "completion_percentage": 0.4139219521824017,
+        "timestamp": "2025-04-26T23:20:48.622183"
+      },
+      {
+        "content_id": "c30",
+        "watch_duration": 5407,
+        "completion_percentage": 0.9440952819694126,
+        "timestamp": "2025-04-03T23:20:48.622183"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 1942,
+        "completion_percentage": 0.6059699307170622,
+        "timestamp": "2025-04-18T23:20:48.622183"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 6669,
+        "completion_percentage": 0.9131813927416125,
+        "timestamp": "2025-04-07T23:20:48.622183"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 4140,
+        "completion_percentage": 0.16997749971188486,
+        "timestamp": "2025-04-09T23:20:48.622183"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 5076,
+        "completion_percentage": 0.8477682133383473,
+        "timestamp": "2025-04-14T23:20:48.622183"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 1623,
+        "completion_percentage": 0.2641226745177919,
+        "timestamp": "2025-04-08T23:20:48.622183"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 3692,
+        "completion_percentage": 0.9615325513213036,
+        "timestamp": "2025-03-31T23:20:48.622183"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 1529,
+        "completion_percentage": 0.24324847173449768,
+        "timestamp": "2025-04-04T23:20:48.622183"
+      },
+      {
+        "content_id": "c27",
+        "watch_duration": 4447,
+        "completion_percentage": 0.8601885665672503,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 3787,
+        "completion_percentage": 0.3200005769914947,
+        "timestamp": "2025-04-18T23:20:48.622183"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 3263,
+        "completion_percentage": 0.31781324526817867,
+        "timestamp": "2025-04-15T23:20:48.622183"
+      },
+      {
+        "content_id": "c12",
+        "watch_duration": 4801,
+        "completion_percentage": 0.8321521015397662,
+        "timestamp": "2025-04-24T23:20:48.622183"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 5873,
+        "completion_percentage": 0.6091153777914837,
+        "timestamp": "2025-04-21T23:20:48.622183"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 5734,
+        "completion_percentage": 0.31323716045153016,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 68,
+        "completion_percentage": 0.8361572435057314,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 1683,
+        "completion_percentage": 0.7024942204437467,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c105",
+        "watch_duration": 3847,
+        "completion_percentage": 0.7166715294295293,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c21",
+        "watch_duration": 2060,
+        "completion_percentage": 0.8496482466496658,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 5792,
+        "completion_percentage": 0.18781499667880144,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 6623,
+        "completion_percentage": 0.22925509756399054,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 4433,
+        "completion_percentage": 0.5018240714905948,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c85",
+        "watch_duration": 6272,
+        "completion_percentage": 0.6361776324848072,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c114",
+        "watch_duration": 2583,
+        "completion_percentage": 0.7216665717059152,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 1205,
+        "completion_percentage": 0.10923719068556151,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 2727,
+        "completion_percentage": 0.4099653670007293,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 4631,
+        "completion_percentage": 0.5173974436282643,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 4605,
+        "completion_percentage": 0.5552637869561456,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c129",
+        "watch_duration": 631,
+        "completion_percentage": 0.6899483518140309,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 5926,
+        "completion_percentage": 0.4932143638006051,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c148",
+        "watch_duration": 864,
+        "completion_percentage": 0.7105153324501152,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 4416,
+        "completion_percentage": 0.2208715848922839,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u14": {
+    "username": "User 14",
+    "preferences": {
+      "Fantasy": 0.5384496156209022,
+      "Animation": 0.7450828891084704,
+      "Adventure": 0.41454723030979984,
+      "Mystery": 0.30961470446958717,
+      "Documentary": 0.4459165036721646,
+      "Western": 0.4761927425640654,
+      "Thriller": 0.683052929673554,
+      "Romance": 0.49958292790686054,
+      "Action": 0.6353949905334941,
+      "Sci-Fi": 0.4631765911747506
+    },
+    "viewing_history": [
+      {
+        "content_id": "c48",
+        "watch_duration": 3428,
+        "completion_percentage": 0.22607353366108612,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c74",
+        "watch_duration": 5243,
+        "completion_percentage": 0.7097385146514249,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 4604,
+        "completion_percentage": 0.9457634351238616,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 4785,
+        "completion_percentage": 0.3015995399742394,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 428,
+        "completion_percentage": 0.24588764305108868,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 3970,
+        "completion_percentage": 0.6738733651006903,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 2348,
+        "completion_percentage": 0.6364721821035942,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 2624,
+        "completion_percentage": 0.702053576669486,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 4292,
+        "completion_percentage": 0.462532437203681,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 6332,
+        "completion_percentage": 0.997924064843201,
+        "timestamp": "2025-04-02T23:20:48.622183"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 2609,
+        "completion_percentage": 0.16080865719418558,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 4025,
+        "completion_percentage": 0.7101579235559785,
+        "timestamp": "2025-03-30T23:20:48.622183"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 239,
+        "completion_percentage": 0.2211453584178601,
+        "timestamp": "2025-04-12T23:20:48.622183"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 1166,
+        "completion_percentage": 0.10458260359594568,
+        "timestamp": "2025-04-28T23:20:48.623182"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 943,
+        "completion_percentage": 0.780675191254867,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 5693,
+        "completion_percentage": 0.30978665906522745,
+        "timestamp": "2025-04-17T23:20:48.623182"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 4286,
+        "completion_percentage": 0.3767976182301578,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 2298,
+        "completion_percentage": 0.9944710081900764,
+        "timestamp": "2025-04-20T23:20:48.623182"
+      },
+      {
+        "content_id": "c28",
+        "watch_duration": 1576,
+        "completion_percentage": 0.868131864428489,
+        "timestamp": "2025-04-16T23:20:48.623182"
+      },
+      {
+        "content_id": "c84",
+        "watch_duration": 6343,
+        "completion_percentage": 0.7371591420770848,
+        "timestamp": "2025-04-06T23:20:48.623182"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 826,
+        "completion_percentage": 0.575843938650324,
+        "timestamp": "2025-04-06T23:20:48.623182"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 3071,
+        "completion_percentage": 0.5029386391567305,
+        "timestamp": "2025-04-17T23:20:48.623182"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 4140,
+        "completion_percentage": 0.3593076669149803,
+        "timestamp": "2025-04-19T23:20:48.623182"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 2798,
+        "completion_percentage": 0.8287881579712457,
+        "timestamp": "2025-04-05T23:20:48.623182"
+      },
+      {
+        "content_id": "c84",
+        "watch_duration": 5356,
+        "completion_percentage": 0.9783947498475191,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c62",
+        "watch_duration": 5858,
+        "completion_percentage": 0.8364607579400489,
+        "timestamp": "2025-04-02T23:20:48.623182"
+      },
+      {
+        "content_id": "c118",
+        "watch_duration": 3116,
+        "completion_percentage": 0.8932389243824713,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 2772,
+        "completion_percentage": 0.9989181495175442,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 2378,
+        "completion_percentage": 0.10323452917068837,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 1275,
+        "completion_percentage": 0.873954033773972,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 4856,
+        "completion_percentage": 0.11178364943724274,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 2708,
+        "completion_percentage": 0.9245369013591089,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c105",
+        "watch_duration": 2248,
+        "completion_percentage": 0.441612213907575,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 2893,
+        "completion_percentage": 0.952362366441647,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c129",
+        "watch_duration": 674,
+        "completion_percentage": 0.7569900138497706,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c128",
+        "watch_duration": 6260,
+        "completion_percentage": 0.2962897107299005,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 2713,
+        "completion_percentage": 0.7053531603221139,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c101",
+        "watch_duration": 211,
+        "completion_percentage": 0.6389054106475172,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 2673,
+        "completion_percentage": 0.5556128957412652,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 5259,
+        "completion_percentage": 0.10777378702866261,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 6788,
+        "completion_percentage": 0.28805836616241887,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 171,
+        "completion_percentage": 0.8342554121268184,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 4543,
+        "completion_percentage": 0.6068448873964513,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u15": {
+    "username": "User 15",
+    "preferences": {
+      "Western": 0.5946352953568859,
+      "Sci-Fi": 0.686880684748459,
+      "Crime": 0.833044916300562,
+      "Animation": 0.4877115779347039,
+      "Action": 0.43317429328575063,
+      "Thriller": 0.6947864641527871,
+      "Mystery": 0.8474787562843609
+    },
+    "viewing_history": [
+      {
+        "content_id": "c25",
+        "watch_duration": 5637,
+        "completion_percentage": 0.8080864298293693,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 3233,
+        "completion_percentage": 0.6772532832573482,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 3653,
+        "completion_percentage": 0.20430815793202745,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 1728,
+        "completion_percentage": 0.7004901389679953,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 485,
+        "completion_percentage": 0.5488178388413182,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 2251,
+        "completion_percentage": 0.49832291526237094,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c88",
+        "watch_duration": 526,
+        "completion_percentage": 0.5852146941364403,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 3043,
+        "completion_percentage": 0.8834791002831763,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 1112,
+        "completion_percentage": 0.3058936205146584,
+        "timestamp": "2025-04-17T23:20:48.623182"
+      },
+      {
+        "content_id": "c82",
+        "watch_duration": 4431,
+        "completion_percentage": 0.2662819954029453,
+        "timestamp": "2025-04-23T23:20:48.623182"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 5642,
+        "completion_percentage": 0.5921509553154498,
+        "timestamp": "2025-04-08T23:20:48.623182"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 6098,
+        "completion_percentage": 0.3550772931049542,
+        "timestamp": "2025-04-16T23:20:48.623182"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 3841,
+        "completion_percentage": 0.20718268089383765,
+        "timestamp": "2025-04-16T23:20:48.623182"
+      },
+      {
+        "content_id": "c4",
+        "watch_duration": 5319,
+        "completion_percentage": 0.4991277708494093,
+        "timestamp": "2025-04-14T23:20:48.623182"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 6024,
+        "completion_percentage": 0.11922577254996165,
+        "timestamp": "2025-04-20T23:20:48.623182"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 4911,
+        "completion_percentage": 0.10460470910273342,
+        "timestamp": "2025-04-09T23:20:48.623182"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 5982,
+        "completion_percentage": 0.7043037689236973,
+        "timestamp": "2025-04-27T23:20:48.623182"
+      },
+      {
+        "content_id": "c101",
+        "watch_duration": 1020,
+        "completion_percentage": 0.7897213471923762,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c114",
+        "watch_duration": 6483,
+        "completion_percentage": 0.7324942299986216,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c20",
+        "watch_duration": 6087,
+        "completion_percentage": 0.7843969506658582,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c131",
+        "watch_duration": 3191,
+        "completion_percentage": 0.2566177988744169,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c128",
+        "watch_duration": 3867,
+        "completion_percentage": 0.28724929036048125,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c85",
+        "watch_duration": 7167,
+        "completion_percentage": 0.1106056901534882,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 446,
+        "completion_percentage": 0.38516147624424735,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c122",
+        "watch_duration": 2488,
+        "completion_percentage": 0.6750683387533766,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 6241,
+        "completion_percentage": 0.677567517776604,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 7097,
+        "completion_percentage": 0.9840641012038321,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c32",
+        "watch_duration": 6591,
+        "completion_percentage": 0.6288394648666886,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 4362,
+        "completion_percentage": 0.8710239018156123,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c103",
+        "watch_duration": 5734,
+        "completion_percentage": 0.9854229729945018,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c107",
+        "watch_duration": 2757,
+        "completion_percentage": 0.21268843260130083,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 3229,
+        "completion_percentage": 0.7412872015855011,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c49",
+        "watch_duration": 7174,
+        "completion_percentage": 0.8021288258795822,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c137",
+        "watch_duration": 4108,
+        "completion_percentage": 0.9863852085803966,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 6965,
+        "completion_percentage": 0.9986004732222478,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c127",
+        "watch_duration": 1534,
+        "completion_percentage": 0.8780182697683593,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u16": {
+    "username": "User 16",
+    "preferences": {
+      "Fantasy": 0.8798529209423216,
+      "Crime": 0.7581808311323992,
+      "Animation": 0.506567741768384,
+      "Horror": 0.595924808300167,
+      "Western": 0.643761430352831,
+      "Romance": 0.5184753872641368,
+      "Documentary": 0.787788336896444,
+      "Thriller": 0.33133758701419125
+    },
+    "viewing_history": [
+      {
+        "content_id": "c48",
+        "watch_duration": 2521,
+        "completion_percentage": 0.5498726513326572,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 1436,
+        "completion_percentage": 0.24293348633724163,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c49",
+        "watch_duration": 3248,
+        "completion_percentage": 0.7648960171834852,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 6898,
+        "completion_percentage": 0.3295310552325442,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c61",
+        "watch_duration": 7076,
+        "completion_percentage": 0.24040142919619983,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 1455,
+        "completion_percentage": 0.27404959456827105,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 5432,
+        "completion_percentage": 0.166003405267861,
+        "timestamp": "2025-04-15T23:20:48.623182"
+      },
+      {
+        "content_id": "c75",
+        "watch_duration": 5540,
+        "completion_percentage": 0.5740653061824587,
+        "timestamp": "2025-03-31T23:20:48.623182"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 5235,
+        "completion_percentage": 0.38244310357616595,
+        "timestamp": "2025-04-26T23:20:48.623182"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 6782,
+        "completion_percentage": 0.6606279982818359,
+        "timestamp": "2025-04-23T23:20:48.623182"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 1853,
+        "completion_percentage": 0.3926083276443607,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c28",
+        "watch_duration": 111,
+        "completion_percentage": 0.6561948633449608,
+        "timestamp": "2025-04-05T23:20:48.623182"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 4464,
+        "completion_percentage": 0.7947719408163416,
+        "timestamp": "2025-04-05T23:20:48.623182"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 385,
+        "completion_percentage": 0.20235360923223256,
+        "timestamp": "2025-03-31T23:20:48.623182"
+      },
+      {
+        "content_id": "c125",
+        "watch_duration": 4179,
+        "completion_percentage": 0.8448744174665002,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c21",
+        "watch_duration": 6779,
+        "completion_percentage": 0.23615991367041356,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c101",
+        "watch_duration": 6853,
+        "completion_percentage": 0.9902110433428537,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c117",
+        "watch_duration": 2411,
+        "completion_percentage": 0.46454740319141374,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c104",
+        "watch_duration": 2510,
+        "completion_percentage": 0.343898384244794,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 4639,
+        "completion_percentage": 0.11435543088114879,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 5735,
+        "completion_percentage": 0.8577196763059057,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 4092,
+        "completion_percentage": 0.7732129315084262,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c70",
+        "watch_duration": 5362,
+        "completion_percentage": 0.6129287659497616,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c131",
+        "watch_duration": 4576,
+        "completion_percentage": 0.9804262776707914,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c149",
+        "watch_duration": 3858,
+        "completion_percentage": 0.9531877104144104,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c87",
+        "watch_duration": 3857,
+        "completion_percentage": 0.48484312440263455,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 889,
+        "completion_percentage": 0.10340832969084968,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 4120,
+        "completion_percentage": 0.9916066627274233,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 2851,
+        "completion_percentage": 0.8038700122675612,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 2398,
+        "completion_percentage": 0.6990987898839213,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c88",
+        "watch_duration": 6808,
+        "completion_percentage": 0.8650322011968499,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c150",
+        "watch_duration": 5676,
+        "completion_percentage": 0.5196718945340918,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u17": {
+    "username": "User 17",
+    "preferences": {
+      "Comedy": 0.36503838746889883,
+      "Fantasy": 0.8782891940232886,
+      "Romance": 0.3310530213925826,
+      "Mystery": 0.471998295668307,
+      "Adventure": 0.747617662758046,
+      "Action": 0.7231383776629237
+    },
+    "viewing_history": [
+      {
+        "content_id": "c81",
+        "watch_duration": 4819,
+        "completion_percentage": 0.3598777476353483,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 4362,
+        "completion_percentage": 0.7958201064173593,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c13",
+        "watch_duration": 114,
+        "completion_percentage": 0.9944999761043647,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 6754,
+        "completion_percentage": 0.4967962631879085,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 1958,
+        "completion_percentage": 0.2843565318000102,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 3025,
+        "completion_percentage": 0.9380733421139742,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 6713,
+        "completion_percentage": 0.2162773094862515,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c90",
+        "watch_duration": 2484,
+        "completion_percentage": 0.7083509173413,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c70",
+        "watch_duration": 3679,
+        "completion_percentage": 0.32978918051213885,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 7010,
+        "completion_percentage": 0.8510282073079929,
+        "timestamp": "2025-04-03T23:20:48.623182"
+      },
+      {
+        "content_id": "c94",
+        "watch_duration": 2757,
+        "completion_percentage": 0.8010433027893991,
+        "timestamp": "2025-04-29T23:20:48.623182"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 838,
+        "completion_percentage": 0.8914861268128828,
+        "timestamp": "2025-04-15T23:20:48.623182"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 5317,
+        "completion_percentage": 0.7302594430966564,
+        "timestamp": "2025-03-31T23:20:48.623182"
+      },
+      {
+        "content_id": "c9",
+        "watch_duration": 2264,
+        "completion_percentage": 0.40253174471376696,
+        "timestamp": "2025-04-10T23:20:48.623182"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 4200,
+        "completion_percentage": 0.2598959601217957,
+        "timestamp": "2025-04-24T23:20:48.623182"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 5172,
+        "completion_percentage": 0.6102248798920114,
+        "timestamp": "2025-04-20T23:20:48.623182"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 7116,
+        "completion_percentage": 0.14327064701289477,
+        "timestamp": "2025-04-21T23:20:48.623182"
+      },
+      {
+        "content_id": "c59",
+        "watch_duration": 5634,
+        "completion_percentage": 0.5689107251098271,
+        "timestamp": "2025-04-14T23:20:48.623182"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 6794,
+        "completion_percentage": 0.30024390930282296,
+        "timestamp": "2025-04-06T23:20:48.623182"
+      },
+      {
+        "content_id": "c35",
+        "watch_duration": 3153,
+        "completion_percentage": 0.24409958698389927,
+        "timestamp": "2025-04-27T23:20:48.623182"
+      },
+      {
+        "content_id": "c51",
+        "watch_duration": 4282,
+        "completion_percentage": 0.2854689937659266,
+        "timestamp": "2025-04-07T23:20:48.623182"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 122,
+        "completion_percentage": 0.8161385815419422,
+        "timestamp": "2025-04-11T23:20:48.623182"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 1409,
+        "completion_percentage": 0.10927762766068576,
+        "timestamp": "2025-04-18T23:20:48.623182"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 5087,
+        "completion_percentage": 0.24316885245250636,
+        "timestamp": "2025-04-28T23:20:48.623182"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 4640,
+        "completion_percentage": 0.9089435994670183,
+        "timestamp": "2025-04-10T23:20:48.623182"
+      },
+      {
+        "content_id": "c143",
+        "watch_duration": 2302,
+        "completion_percentage": 0.9197355587965508,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 438,
+        "completion_percentage": 0.9669668720352583,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 3456,
+        "completion_percentage": 0.8098888463906835,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c27",
+        "watch_duration": 369,
+        "completion_percentage": 0.2683920944274914,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 5004,
+        "completion_percentage": 0.9668091276799663,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c126",
+        "watch_duration": 6996,
+        "completion_percentage": 0.7746226482521463,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 2490,
+        "completion_percentage": 0.5755757401808602,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u18": {
+    "username": "User 18",
+    "preferences": {
+      "Western": 0.84136192133488,
+      "Fantasy": 0.600773325231415,
+      "Mystery": 0.6325560086284792,
+      "Sci-Fi": 0.5411122867407908,
+      "Animation": 0.7356107241246886,
+      "Thriller": 0.5914566105941712,
+      "Action": 0.6220040237519946
+    },
+    "viewing_history": [
+      {
+        "content_id": "c65",
+        "watch_duration": 5843,
+        "completion_percentage": 0.6955956096237661,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 4584,
+        "completion_percentage": 0.6266720075965437,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 2173,
+        "completion_percentage": 0.34916671365803276,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c96",
+        "watch_duration": 2385,
+        "completion_percentage": 0.4946846975418707,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 5238,
+        "completion_percentage": 0.7051455719248882,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c73",
+        "watch_duration": 391,
+        "completion_percentage": 0.28379717172090296,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 3225,
+        "completion_percentage": 0.49354719170067596,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c88",
+        "watch_duration": 3649,
+        "completion_percentage": 0.720098237026918,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 5665,
+        "completion_percentage": 0.45284546949097537,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 995,
+        "completion_percentage": 0.9344098068034905,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c44",
+        "watch_duration": 1481,
+        "completion_percentage": 0.6681356160350059,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 3492,
+        "completion_percentage": 0.11051642792493405,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c1",
+        "watch_duration": 2663,
+        "completion_percentage": 0.5594769063541549,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c2",
+        "watch_duration": 4742,
+        "completion_percentage": 0.5372483414638154,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c55",
+        "watch_duration": 5555,
+        "completion_percentage": 0.4236250677544383,
+        "timestamp": "2025-04-11T23:20:48.623182"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 6010,
+        "completion_percentage": 0.6588738086634105,
+        "timestamp": "2025-04-19T23:20:48.623182"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 1843,
+        "completion_percentage": 0.7653278860601864,
+        "timestamp": "2025-04-23T23:20:48.623182"
+      },
+      {
+        "content_id": "c54",
+        "watch_duration": 2331,
+        "completion_percentage": 0.5292357725095238,
+        "timestamp": "2025-04-19T23:20:48.623182"
+      },
+      {
+        "content_id": "c91",
+        "watch_duration": 4351,
+        "completion_percentage": 0.959315074265281,
+        "timestamp": "2025-03-31T23:20:48.623182"
+      },
+      {
+        "content_id": "c136",
+        "watch_duration": 821,
+        "completion_percentage": 0.2851744662155008,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 2975,
+        "completion_percentage": 0.13186843105013554,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c4",
+        "watch_duration": 5385,
+        "completion_percentage": 0.40162250460349114,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 4580,
+        "completion_percentage": 0.4769003921158763,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 1006,
+        "completion_percentage": 0.37704773393067403,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c47",
+        "watch_duration": 6411,
+        "completion_percentage": 0.7915191389770061,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 576,
+        "completion_percentage": 0.35148359439400656,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c142",
+        "watch_duration": 4626,
+        "completion_percentage": 0.8262556735930177,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 4585,
+        "completion_percentage": 0.2693581856550067,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 2661,
+        "completion_percentage": 0.693535610445232,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 1375,
+        "completion_percentage": 0.6027232339380593,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 143,
+        "completion_percentage": 0.12905478400680206,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c59",
+        "watch_duration": 5636,
+        "completion_percentage": 0.9492042101639648,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 2468,
+        "completion_percentage": 0.9186519248966255,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u19": {
+    "username": "User 19",
+    "preferences": {
+      "Drama": 0.8610914327018622,
+      "Animation": 0.9421559392329188,
+      "Sci-Fi": 0.3430651778277115,
+      "Action": 0.4227757174970985,
+      "Mystery": 0.4271996095576151,
+      "Adventure": 0.8204167738918058,
+      "Documentary": 0.4767794867206049,
+      "Western": 0.33105080080195476,
+      "Comedy": 0.3756673065396736
+    },
+    "viewing_history": [
+      {
+        "content_id": "c48",
+        "watch_duration": 2654,
+        "completion_percentage": 0.6719833325679376,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c74",
+        "watch_duration": 4107,
+        "completion_percentage": 0.1260439863701401,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 913,
+        "completion_percentage": 0.40349227195031134,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 5544,
+        "completion_percentage": 0.2997784689138278,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 2531,
+        "completion_percentage": 0.7315128487496914,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c10",
+        "watch_duration": 2659,
+        "completion_percentage": 0.3724854730551528,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c26",
+        "watch_duration": 5510,
+        "completion_percentage": 0.3912603629587649,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 6771,
+        "completion_percentage": 0.6269827080251539,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 4110,
+        "completion_percentage": 0.6463801687090268,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 3887,
+        "completion_percentage": 0.5304954906947204,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c60",
+        "watch_duration": 6816,
+        "completion_percentage": 0.7269786672074832,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 5863,
+        "completion_percentage": 0.16876702855784137,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 3797,
+        "completion_percentage": 0.41732861664714116,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 6650,
+        "completion_percentage": 0.2401260804302505,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 1157,
+        "completion_percentage": 0.6793206158788239,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c95",
+        "watch_duration": 1867,
+        "completion_percentage": 0.9913563219665523,
+        "timestamp": "2025-04-17T23:20:48.623182"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 2779,
+        "completion_percentage": 0.7064113448285805,
+        "timestamp": "2025-04-08T23:20:48.623182"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 4469,
+        "completion_percentage": 0.16316961421923434,
+        "timestamp": "2025-04-05T23:20:48.623182"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 5612,
+        "completion_percentage": 0.7580443195544792,
+        "timestamp": "2025-04-06T23:20:48.623182"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 2738,
+        "completion_percentage": 0.17850147764053553,
+        "timestamp": "2025-04-27T23:20:48.623182"
+      },
+      {
+        "content_id": "c68",
+        "watch_duration": 2666,
+        "completion_percentage": 0.1537026070159359,
+        "timestamp": "2025-04-21T23:20:48.623182"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 3356,
+        "completion_percentage": 0.1012239222506221,
+        "timestamp": "2025-04-28T23:20:48.623182"
+      },
+      {
+        "content_id": "c42",
+        "watch_duration": 5777,
+        "completion_percentage": 0.2969355102684318,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 6321,
+        "completion_percentage": 0.40063723206139146,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 2626,
+        "completion_percentage": 0.6565541543212451,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c40",
+        "watch_duration": 6691,
+        "completion_percentage": 0.35598382169590426,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c115",
+        "watch_duration": 6318,
+        "completion_percentage": 0.8321313995527053,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u20": {
+    "username": "User 20",
+    "preferences": {
+      "Horror": 0.9132422432778071,
+      "Fantasy": 0.42981143481798323,
+      "Adventure": 0.8500574158839711,
+      "Thriller": 0.5337154736123093,
+      "Mystery": 0.8762470875319506,
+      "Romance": 0.991988707632973,
+      "Western": 0.5364740614327873,
+      "Drama": 0.9893780145919693,
+      "Sci-Fi": 0.5740319871406506
+    },
+    "viewing_history": [
+      {
+        "content_id": "c96",
+        "watch_duration": 1658,
+        "completion_percentage": 0.6834965374722153,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 688,
+        "completion_percentage": 0.6324158169317057,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 5044,
+        "completion_percentage": 0.6339134005438226,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 226,
+        "completion_percentage": 0.7530657514072694,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c11",
+        "watch_duration": 3214,
+        "completion_percentage": 0.3937581183587502,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 7169,
+        "completion_percentage": 0.6155680440970462,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c77",
+        "watch_duration": 5253,
+        "completion_percentage": 0.8380396391508869,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 1600,
+        "completion_percentage": 0.48000957843389336,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 2612,
+        "completion_percentage": 0.4037467465746323,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 7188,
+        "completion_percentage": 0.2104497309247449,
+        "timestamp": "2025-04-29T23:20:48.618436"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 3759,
+        "completion_percentage": 0.7773078510166439,
+        "timestamp": "2025-04-04T23:20:48.623182"
+      },
+      {
+        "content_id": "c86",
+        "watch_duration": 5330,
+        "completion_percentage": 0.9523338502023964,
+        "timestamp": "2025-04-19T23:20:48.623182"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 72,
+        "completion_percentage": 0.29189823347477406,
+        "timestamp": "2025-04-13T23:20:48.623182"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 927,
+        "completion_percentage": 0.20832425790466264,
+        "timestamp": "2025-04-29T23:20:48.623182"
+      },
+      {
+        "content_id": "c18",
+        "watch_duration": 538,
+        "completion_percentage": 0.49312761499037894,
+        "timestamp": "2025-04-28T23:20:48.623182"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 3601,
+        "completion_percentage": 0.7808095931524395,
+        "timestamp": "2025-04-03T23:20:48.623182"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 2231,
+        "completion_percentage": 0.5045561512633644,
+        "timestamp": "2025-04-26T23:20:48.623182"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 5537,
+        "completion_percentage": 0.10606103124547335,
+        "timestamp": "2025-04-03T23:20:48.623182"
+      },
+      {
+        "content_id": "c38",
+        "watch_duration": 1431,
+        "completion_percentage": 0.6941697724989468,
+        "timestamp": "2025-04-29T23:20:48.623182"
+      },
+      {
+        "content_id": "c6",
+        "watch_duration": 1400,
+        "completion_percentage": 0.19919410179878547,
+        "timestamp": "2025-04-02T23:20:48.623182"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 1992,
+        "completion_percentage": 0.46313198047872073,
+        "timestamp": "2025-04-23T23:20:48.623182"
+      },
+      {
+        "content_id": "c57",
+        "watch_duration": 6830,
+        "completion_percentage": 0.7139374689915998,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c115",
+        "watch_duration": 5301,
+        "completion_percentage": 0.6866011697750409,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c65",
+        "watch_duration": 3492,
+        "completion_percentage": 0.4064991824635459,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c1",
+        "watch_duration": 3689,
+        "completion_percentage": 0.5746052700691009,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 4292,
+        "completion_percentage": 0.13886651650944054,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c98",
+        "watch_duration": 3582,
+        "completion_percentage": 0.60703118246315,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c150",
+        "watch_duration": 1350,
+        "completion_percentage": 0.7520526246769917,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c27",
+        "watch_duration": 3307,
+        "completion_percentage": 0.7399936543778843,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 5314,
+        "completion_percentage": 0.8027337059721953,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c124",
+        "watch_duration": 4838,
+        "completion_percentage": 0.7252707501022235,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 5182,
+        "completion_percentage": 0.579474364651188,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c103",
+        "watch_duration": 470,
+        "completion_percentage": 0.2567868887286982,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c63",
+        "watch_duration": 3480,
+        "completion_percentage": 0.4773786932566413,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c123",
+        "watch_duration": 2867,
+        "completion_percentage": 0.827688143051323,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u21": {
+    "username": "User 21",
+    "preferences": {
+      "Horror": 0.7328421846199709,
+      "Documentary": 0.42014176091103006
+    },
+    "viewing_history": [
+      {
+        "content_id": "c91",
+        "watch_duration": 1628,
+        "completion_percentage": 0.5005857283013813,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c5",
+        "watch_duration": 5414,
+        "completion_percentage": 0.5249967215157625,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c78",
+        "watch_duration": 276,
+        "completion_percentage": 0.34831683056931373,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c141",
+        "watch_duration": 5204,
+        "completion_percentage": 0.8671233880219885,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c15",
+        "watch_duration": 2719,
+        "completion_percentage": 0.1852134037306853,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c110",
+        "watch_duration": 756,
+        "completion_percentage": 0.26594418154516075,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 2328,
+        "completion_percentage": 0.29023143280067504,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u22": {
+    "username": "User 22",
+    "preferences": {
+      "Horror": 0.3561604890523633,
+      "Animation": 0.6139655820271526,
+      "Adventure": 0.6211003520960579,
+      "Sci-Fi": 0.41603297055846833
+    },
+    "viewing_history": [
+      {
+        "content_id": "c81",
+        "watch_duration": 2192,
+        "completion_percentage": 0.9047418124545602,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c50",
+        "watch_duration": 1751,
+        "completion_percentage": 0.4921610355749477,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c30",
+        "watch_duration": 6652,
+        "completion_percentage": 0.7214374238656708,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c135",
+        "watch_duration": 5836,
+        "completion_percentage": 0.37748793144766335,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c16",
+        "watch_duration": 5886,
+        "completion_percentage": 0.3252990545016685,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c7",
+        "watch_duration": 6487,
+        "completion_percentage": 0.7149727849828156,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c67",
+        "watch_duration": 1787,
+        "completion_percentage": 0.16363081922481337,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c20",
+        "watch_duration": 3133,
+        "completion_percentage": 0.5654220667275583,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c23",
+        "watch_duration": 3891,
+        "completion_percentage": 0.774528012382831,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c46",
+        "watch_duration": 3665,
+        "completion_percentage": 0.19906642661280233,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c120",
+        "watch_duration": 5460,
+        "completion_percentage": 0.4847017256639946,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 3812,
+        "completion_percentage": 0.15903001068437592,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u23": {
+    "username": "User 23",
+    "preferences": {
+      "Romance": 0.9027834348692629,
+      "Comedy": 0.8423050517112938
+    },
+    "viewing_history": [
+      {
+        "content_id": "c135",
+        "watch_duration": 4675,
+        "completion_percentage": 0.553361540550964,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 7115,
+        "completion_percentage": 0.48001729016170325,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c119",
+        "watch_duration": 69,
+        "completion_percentage": 0.937414909784128,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c74",
+        "watch_duration": 3936,
+        "completion_percentage": 0.23457993109886488,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c56",
+        "watch_duration": 1000,
+        "completion_percentage": 0.7537930730976,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c134",
+        "watch_duration": 2189,
+        "completion_percentage": 0.39565593343132544,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u24": {
+    "username": "User 24",
+    "preferences": {
+      "Adventure": 0.3758640675725592,
+      "Thriller": 0.7713726866821744,
+      "Drama": 0.9611792969148474,
+      "Sci-Fi": 0.8021267977131381
+    },
+    "viewing_history": [
+      {
+        "content_id": "c3",
+        "watch_duration": 395,
+        "completion_percentage": 0.881451522546295,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 7045,
+        "completion_percentage": 0.3278447211859848,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c83",
+        "watch_duration": 743,
+        "completion_percentage": 0.6024458384686782,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c34",
+        "watch_duration": 4546,
+        "completion_percentage": 0.1729364706582276,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c33",
+        "watch_duration": 5877,
+        "completion_percentage": 0.23756111010311004,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c1",
+        "watch_duration": 5961,
+        "completion_percentage": 0.5172352536232465,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c24",
+        "watch_duration": 6120,
+        "completion_percentage": 0.5494376256607808,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 5398,
+        "completion_percentage": 0.16408658901426693,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 2850,
+        "completion_percentage": 0.693407779741767,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c135",
+        "watch_duration": 6323,
+        "completion_percentage": 0.23711855121911127,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c147",
+        "watch_duration": 2857,
+        "completion_percentage": 0.25285290444141106,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c36",
+        "watch_duration": 750,
+        "completion_percentage": 0.9240058884202591,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c104",
+        "watch_duration": 627,
+        "completion_percentage": 0.308431971381828,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c30",
+        "watch_duration": 5665,
+        "completion_percentage": 0.6784681623173122,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c25",
+        "watch_duration": 6094,
+        "completion_percentage": 0.6336361316241669,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c118",
+        "watch_duration": 4809,
+        "completion_percentage": 0.45222422427053965,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c117",
+        "watch_duration": 3787,
+        "completion_percentage": 0.3044334093410519,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c82",
+        "watch_duration": 5848,
+        "completion_percentage": 0.501272051106512,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c52",
+        "watch_duration": 6161,
+        "completion_percentage": 0.18143355629605984,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u25": {
+    "username": "User 25",
+    "preferences": {
+      "Romance": 0.9744699766024103,
+      "Thriller": 0.6832203379070858,
+      "Western": 0.9384782135958212
+    },
+    "viewing_history": [
+      {
+        "content_id": "c96",
+        "watch_duration": 3705,
+        "completion_percentage": 0.8921623076933483,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c71",
+        "watch_duration": 6344,
+        "completion_percentage": 0.7859948013881274,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c138",
+        "watch_duration": 5779,
+        "completion_percentage": 0.14191950435310444,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 1925,
+        "completion_percentage": 0.6008547325935862,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c20",
+        "watch_duration": 6525,
+        "completion_percentage": 0.5822450445914271,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c93",
+        "watch_duration": 3676,
+        "completion_percentage": 0.15084286721100246,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u26": {
+    "username": "User 26",
+    "preferences": {
+      "Animation": 0.8700061898622058,
+      "Action": 0.5190671429469229
+    },
+    "viewing_history": [
+      {
+        "content_id": "c16",
+        "watch_duration": 3893,
+        "completion_percentage": 0.8772094003043529,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c88",
+        "watch_duration": 853,
+        "completion_percentage": 0.29052499876154453,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c123",
+        "watch_duration": 6014,
+        "completion_percentage": 0.4320080888872877,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c84",
+        "watch_duration": 1728,
+        "completion_percentage": 0.6516552520343323,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c88",
+        "watch_duration": 4293,
+        "completion_percentage": 0.946090039614195,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c12",
+        "watch_duration": 3915,
+        "completion_percentage": 0.35736702040289114,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c79",
+        "watch_duration": 400,
+        "completion_percentage": 0.9328774583797188,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u27": {
+    "username": "User 27",
+    "preferences": {
+      "Mystery": 0.43054853036136076,
+      "Animation": 0.8189141206738826,
+      "Drama": 0.6006344004542814
+    },
+    "viewing_history": [
+      {
+        "content_id": "c43",
+        "watch_duration": 335,
+        "completion_percentage": 0.2800617168337407,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 817,
+        "completion_percentage": 0.8745820899922335,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c69",
+        "watch_duration": 5332,
+        "completion_percentage": 0.9998994325621432,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 314,
+        "completion_percentage": 0.4471134771034382,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c2",
+        "watch_duration": 5359,
+        "completion_percentage": 0.648099376705713,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c3",
+        "watch_duration": 4822,
+        "completion_percentage": 0.13872414468888428,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c149",
+        "watch_duration": 1188,
+        "completion_percentage": 0.3212364367982086,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u28": {
+    "username": "User 28",
+    "preferences": {
+      "Sci-Fi": 0.9258316407783282,
+      "Romance": 0.675453151080305
+    },
+    "viewing_history": [
+      {
+        "content_id": "c74",
+        "watch_duration": 7196,
+        "completion_percentage": 0.13196810494890357,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c14",
+        "watch_duration": 551,
+        "completion_percentage": 0.9179368402435685,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c45",
+        "watch_duration": 1668,
+        "completion_percentage": 0.6218978742988632,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c134",
+        "watch_duration": 885,
+        "completion_percentage": 0.7160275885343217,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c44",
+        "watch_duration": 6664,
+        "completion_percentage": 0.6584670828667025,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c43",
+        "watch_duration": 3625,
+        "completion_percentage": 0.6631981509953394,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c22",
+        "watch_duration": 5955,
+        "completion_percentage": 0.840785730333814,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c140",
+        "watch_duration": 441,
+        "completion_percentage": 0.32251486104880217,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u29": {
+    "username": "User 29",
+    "preferences": {
+      "Thriller": 0.6911099271906045,
+      "Documentary": 0.3099445718043231,
+      "Crime": 0.6703584200938735
+    },
+    "viewing_history": [
+      {
+        "content_id": "c57",
+        "watch_duration": 5838,
+        "completion_percentage": 0.34120091090801424,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c76",
+        "watch_duration": 3016,
+        "completion_percentage": 0.6773625679867151,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c119",
+        "watch_duration": 4930,
+        "completion_percentage": 0.9478103402058795,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c100",
+        "watch_duration": 287,
+        "completion_percentage": 0.9675106567442262,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c49",
+        "watch_duration": 623,
+        "completion_percentage": 0.8659865488112737,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c104",
+        "watch_duration": 6728,
+        "completion_percentage": 0.6993819845848931,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c17",
+        "watch_duration": 5898,
+        "completion_percentage": 0.9596706798566356,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c48",
+        "watch_duration": 4797,
+        "completion_percentage": 0.30380356021586574,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c142",
+        "watch_duration": 6268,
+        "completion_percentage": 0.7072197288613147,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c41",
+        "watch_duration": 1228,
+        "completion_percentage": 0.3720610511489294,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c99",
+        "watch_duration": 1014,
+        "completion_percentage": 0.4760370012473505,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c109",
+        "watch_duration": 3816,
+        "completion_percentage": 0.9106992035173261,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c143",
+        "watch_duration": 3755,
+        "completion_percentage": 0.2534014146018557,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c92",
+        "watch_duration": 5719,
+        "completion_percentage": 0.20520673901872521,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c80",
+        "watch_duration": 4080,
+        "completion_percentage": 0.3555631215474008,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  },
+  "u30": {
+    "username": "User 30",
+    "preferences": {
+      "Animation": 0.9517207025438905,
+      "Action": 0.6048229562060696,
+      "Horror": 0.5075576023530157,
+      "Adventure": 0.5993762841653794
+    },
+    "viewing_history": [
+      {
+        "content_id": "c97",
+        "watch_duration": 6839,
+        "completion_percentage": 0.3120397264029928,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c64",
+        "watch_duration": 346,
+        "completion_percentage": 0.3460760036790056,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c19",
+        "watch_duration": 6532,
+        "completion_percentage": 0.7926823786402726,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c141",
+        "watch_duration": 4624,
+        "completion_percentage": 0.7893863663396989,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c66",
+        "watch_duration": 2445,
+        "completion_percentage": 0.9759909459489691,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c103",
+        "watch_duration": 5055,
+        "completion_percentage": 0.16319838741383808,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c81",
+        "watch_duration": 249,
+        "completion_percentage": 0.3315001803607217,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c104",
+        "watch_duration": 2677,
+        "completion_percentage": 0.2514845345975182,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c72",
+        "watch_duration": 1174,
+        "completion_percentage": 0.1619576338058783,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c58",
+        "watch_duration": 2438,
+        "completion_percentage": 0.5942700545344576,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c39",
+        "watch_duration": 7199,
+        "completion_percentage": 0.23807055682616263,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c120",
+        "watch_duration": 6515,
+        "completion_percentage": 0.5749597035811852,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c37",
+        "watch_duration": 1406,
+        "completion_percentage": 0.3503808272132657,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c8",
+        "watch_duration": 4261,
+        "completion_percentage": 0.5941857974264099,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c89",
+        "watch_duration": 5450,
+        "completion_percentage": 0.8514186098854122,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      },
+      {
+        "content_id": "c139",
+        "watch_duration": 5312,
+        "completion_percentage": 0.45274203024218296,
+        "timestamp": "2025-04-29T23:24:35.606237"
+      }
+    ]
+  }
+}

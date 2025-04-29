@@ -1,0 +1,26 @@
+{
+    "content1": {
+      "title": "Action Packed",
+      "content_type": "movie",
+      "description": "An exciting action film",
+      "genres": ["action", "thriller"],
+      "release_date": "2024-06-15",
+      "duration": 120,
+      "actors": ["Actor 1", "Actor 2", "Actor 3"],
+      "directors": ["Director 1"],
+      "tags": ["explosive", "adventure", "suspense"],
+      "popularity_score": 0.85
+    },
+    "content2": {
+      "title": "Comedy Hour",
+      "content_type": "series",
+      "description": "A hilarious comedy series",
+      "genres": ["comedy"],
+      "release_date": "2024-04-10",
+      "duration": 30,
+      "actors": ["Actor 4", "Actor 5"],
+      "directors": ["Director 2"],
+      "tags": ["funny", "sitcom", "laugh"],
+      "popularity_score": 0.75
+    }
+  }

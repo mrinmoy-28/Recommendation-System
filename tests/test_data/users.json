@@ -1,0 +1,30 @@
+{
+    "user1": {
+      "username": "User 1",
+      "preferences": {
+        "action": 0.9,
+        "sci-fi": 0.8,
+        "thriller": 0.7
+      },
+      "viewing_history": [
+        {
+          "content_id": "content1",
+          "watch_duration": 3600,
+          "completion_percentage": 1.0,
+          "timestamp": "2025-04-10T20:30:00"
+        },
+        {
+          "content_id": "content5",
+          "watch_duration": 5400,
+          "completion_percentage": 0.8,
+          "timestamp": "2025-04-12T21:45:00"
+        },
+        {
+          "content_id": "content10",
+          "watch_duration": 2700,
+          "completion_percentage": 0.6,
+          "timestamp": "2025-04-15T19:20:00"
+        }
+      ]
+    }
+  }

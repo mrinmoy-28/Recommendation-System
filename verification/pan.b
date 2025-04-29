@@ -2,32 +2,83 @@
 	default: Uerror("bad return move");
 	case  0: goto R999; /* nothing to undo */
 
-		 /* PROC :init: */
-
-	case 3: // STATE 5
+		 /* PROC Watcher */
+;
 		;
-		((P0 *)_this)->state = trpt->bup.ovals[3];
-		((P0 *)_this)->record_created = trpt->bup.ovals[2];
-		((P0 *)_this)->state = trpt->bup.ovals[1];
-		((P0 *)_this)->state = trpt->bup.ovals[0];
+		
+	case 4: // STATE 6
 		;
-		ungrab_ints(trpt->bup.ovals, 7);
+		p_restor(II);
+		;
+		;
 		goto R999;
 
-	case 4: // STATE 8
+		 /* PROC RecommendationEngine */
+
+	case 5: // STATE 1
 		;
-		((P0 *)_this)->state = trpt->bup.ovals[1];
-	/* 0 */	((P0 *)_this)->record_created = trpt->bup.ovals[0];
+		XX = 1;
+		unrecv(now.state_chan, XX-1, 0, ((P1 *)_this)->state, 1);
+		((P1 *)_this)->state = trpt->bup.oval;
 		;
 		;
-		ungrab_ints(trpt->bup.ovals, 3);
 		goto R999;
 ;
+		;
 		
-	case 5: // STATE 11
+	case 7: // STATE 3
+		;
+		XX = 1;
+		unrecv(now.state_chan, XX-1, 0, ((P1 *)_this)->state, 1);
+		((P1 *)_this)->state = trpt->bup.oval;
+		;
+		;
+		goto R999;
+;
+		;
+		;
+		;
+		
+	case 10: // STATE 6
+		;
+		_m = unsend(now.state_chan);
+		;
 		goto R999;
 
-	case 6: // STATE 15
+	case 11: // STATE 11
+		;
+		now.done = trpt->bup.oval;
+		;
+		goto R999;
+
+	case 12: // STATE 12
+		;
+		p_restor(II);
+		;
+		;
+		goto R999;
+
+		 /* PROC UserInteraction */
+
+	case 13: // STATE 1
+		;
+		_m = unsend(now.state_chan);
+		;
+		goto R999;
+
+	case 14: // STATE 2
+		;
+		now.preference_updated = trpt->bup.oval;
+		;
+		goto R999;
+
+	case 15: // STATE 3
+		;
+		_m = unsend(now.state_chan);
+		;
+		goto R999;
+
+	case 16: // STATE 4
 		;
 		p_restor(II);
 		;

@@ -1,31 +1,37 @@
-// recommendation_model.pml
+// recommendation_model.pml - fixed
 
-// Modeling system states
-mtype = { idle, viewing, recorded, recommended }
+mtype = { COLLECTING, ANALYZING, RECOMMENDING }
 
-init {
+chan state_chan = [3] of { mtype }
+
+bool preference_updated = false;
+bool done = false;
+
+active proctype UserInteraction() {
+    state_chan!COLLECTING;
+    preference_updated = true;
+    state_chan!ANALYZING;
+}
+
+active proctype RecommendationEngine() {
     mtype state;
-    bool record_created = false;
 
-    // Start in idle
-    state = idle;
+    state_chan?state;
+    assert(state == COLLECTING); // Ensure proper sequence
 
-    // User starts viewing content
-    state = viewing;
-    printf("User is viewing content\n");
+    state_chan?state;
+    assert(state == ANALYZING);
 
-    // Record is created
-    record_created = true;
-    state = recorded;
-    printf("Viewing record created\n");
-
-    // Recommendation should only happen if record is created
     if
-    :: (record_created) -> 
-        state = recommended;
-        printf("Recommendations generated successfully\n")
-    :: else ->
-        printf("ERROR: Recommendation generated before viewing record!\n");
-        assert(false)  // This should never happen
+    :: preference_updated -> state_chan!RECOMMENDING;
+    :: else -> skip
     fi;
+
+    done = true; // Signal end of execution
+}
+
+active proctype Watcher() {
+    do
+    :: done -> break
+    od
 }

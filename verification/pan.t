@@ -22,32 +22,47 @@ settable(void)
 {	Trans *T;
 	Trans *settr(int, int, int, int, int, char *, int, int, int);
 
-	trans = (Trans ***) emalloc(2*sizeof(Trans **));
+	trans = (Trans ***) emalloc(4*sizeof(Trans **));
 
-	/* proctype 0: :init: */
+	/* proctype 2: Watcher */
 
-	trans[0] = (Trans **) emalloc(16*sizeof(Trans *));
+	trans[2] = (Trans **) emalloc(7*sizeof(Trans *));
 
-	trans[0][1]	= settr(0,0,13,3,3,"state = idle", 0, 2, 0); /* m: 2 -> 0,13 */
-	reached0[2] = 1;
-	trans[0][2]	= settr(0,0,0,0,0,"state = viewing",0,0,0);
-	trans[0][3]	= settr(0,0,0,0,0,"printf('User is viewing content\\n')",0,0,0);
-	trans[0][4]	= settr(0,0,0,0,0,"record_created = 1",0,0,0);
-	trans[0][5]	= settr(0,0,0,0,0,"state = recorded",0,0,0);
-	trans[0][6]	= settr(0,0,0,0,0,"printf('Viewing record created\\n')",0,0,0);
-	T = trans[0][13] = settr(12,0,0,0,0,"IF", 0, 2, 0);
-	T = T->nxt	= settr(12,0,7,0,0,"IF", 0, 2, 0);
-	    T->nxt	= settr(12,0,10,0,0,"IF", 0, 2, 0);
-	trans[0][7]	= settr(6,0,15,4,4,"(record_created)", 0, 2, 0); /* m: 8 -> 15,0 */
-	reached0[8] = 1;
-	trans[0][8]	= settr(0,0,0,0,0,"state = recommended",0,0,0);
-	trans[0][9]	= settr(0,0,0,0,0,"printf('Recommendations generated successfully\\n')",0,0,0);
-	trans[0][14]	= settr(13,0,15,1,0,".(goto)", 0, 2, 0);
-	trans[0][10]	= settr(9,0,11,2,0,"else", 0, 2, 0);
-	trans[0][11]	= settr(10,0,15,5,5,"printf('ERROR: Recommendation generated before viewing record!\\n')", 0, 2, 0); /* m: 12 -> 0,15 */
-	reached0[12] = 1;
-	trans[0][12]	= settr(0,0,0,0,0,"assert(0)",0,0,0);
-	trans[0][15]	= settr(14,0,0,6,6,"-end-", 0, 3500, 0);
+	trans[2][4]	= settr(19,0,3,1,0,".(goto)", 0, 2, 0);
+	T = trans[2][3] = settr(18,0,0,0,0,"DO", 0, 2, 0);
+	    T->nxt	= settr(18,0,1,0,0,"DO", 0, 2, 0);
+	trans[2][1]	= settr(16,0,6,3,0,"(done)", 1, 2, 0);
+	trans[2][2]	= settr(17,0,6,1,0,"goto :b0", 0, 2, 0);
+	trans[2][5]	= settr(20,0,6,1,0,"break", 0, 2, 0);
+	trans[2][6]	= settr(21,0,0,4,4,"-end-", 0, 3500, 0);
+
+	/* proctype 1: RecommendationEngine */
+
+	trans[1] = (Trans **) emalloc(13*sizeof(Trans *));
+
+	trans[1][1]	= settr(4,0,2,5,5,"state_chan?state", 1, 503, 0);
+	trans[1][2]	= settr(5,0,3,6,0,"assert((state==COLLECTING))", 0, 2, 0);
+	trans[1][3]	= settr(6,0,4,7,7,"state_chan?state", 1, 503, 0);
+	trans[1][4]	= settr(7,0,9,8,0,"assert((state==ANALYZING))", 0, 2, 0);
+	T = trans[1][9] = settr(12,0,0,0,0,"IF", 0, 2, 0);
+	T = T->nxt	= settr(12,0,5,0,0,"IF", 0, 2, 0);
+	    T->nxt	= settr(12,0,7,0,0,"IF", 0, 2, 0);
+	trans[1][5]	= settr(8,0,6,9,0,"(preference_updated)", 1, 2, 0);
+	trans[1][6]	= settr(9,0,11,10,10,"state_chan!RECOMMENDING", 1, 3, 0);
+	trans[1][10]	= settr(13,0,11,1,0,".(goto)", 0, 2, 0);
+	trans[1][7]	= settr(10,0,8,2,0,"else", 0, 2, 0);
+	trans[1][8]	= settr(11,0,11,1,0,"(1)", 0, 2, 0);
+	trans[1][11]	= settr(14,0,12,11,11,"done = 1", 1, 2, 0);
+	trans[1][12]	= settr(15,0,0,12,12,"-end-", 0, 3500, 0);
+
+	/* proctype 0: UserInteraction */
+
+	trans[0] = (Trans **) emalloc(5*sizeof(Trans *));
+
+	trans[0][1]	= settr(0,0,2,13,13,"state_chan!COLLECTING", 1, 3, 0);
+	trans[0][2]	= settr(1,0,3,14,14,"preference_updated = 1", 1, 2, 0);
+	trans[0][3]	= settr(2,0,4,15,15,"state_chan!ANALYZING", 1, 3, 0);
+	trans[0][4]	= settr(3,0,0,16,16,"-end-", 0, 3500, 0);
 	/* np_ demon: */
 	trans[_NP_] = (Trans **) emalloc(3*sizeof(Trans *));
 	T = trans[_NP_][0] = settr(9997,0,1,_T5,0,"(np_)", 1,2,0);

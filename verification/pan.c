@@ -73,6 +73,14 @@ globinit(void)
 #endif
 	*proc_offset, *q_offset;
 void
+locinit2(int h)
+{
+}
+void
+locinit1(int h)
+{
+}
+void
 locinit0(int h)
 {
 }
@@ -482,29 +490,53 @@ int _;	/* predefined write-only variable */
 	#define Index(x, y)	x
 #endif
 
+short src_ln2 [] = {
+	  0,  35,  35,  34,  37,  34,  37,   0, };
+S_F_MAP src_file2 [] = {
+	{ "-", 0, 0 },
+	{ "recommendation_model.pml", 1, 6 },
+	{ "-", 7, 8 }
+};
+uchar reached2 [] = {
+	  0,   1,   1,   0,   1,   1,   0,   0, };
+uchar *loopstate2;
+
+short src_ln1 [] = {
+	  0,  19,  20,  22,  23,  26,  26,  27, 
+	 27,  25,  30,  30,  31,   0, };
+S_F_MAP src_file1 [] = {
+	{ "-", 0, 0 },
+	{ "recommendation_model.pml", 1, 12 },
+	{ "-", 13, 14 }
+};
+uchar reached1 [] = {
+	  0,   0,   0,   0,   0,   1,   0,   1, 
+	  1,   0,   1,   0,   0,   0, };
+uchar *loopstate1;
+
 short src_ln0 [] = {
-	  0,  11,  14,  15,  18,  19,  20,  24, 
-	 25,  26,  27,  28,  29,  23,  31,  31, 
-	  0, };
+	  0,  11,  12,  13,  14,   0, };
 S_F_MAP src_file0 [] = {
 	{ "-", 0, 0 },
-	{ "recommendation_model.pml", 1, 15 },
-	{ "-", 16, 17 }
+	{ "recommendation_model.pml", 1, 4 },
+	{ "-", 5, 6 }
 };
 uchar reached0 [] = {
-	  0,   0,   0,   0,   0,   0,   0,   1, 
-	  0,   0,   1,   0,   0,   0,   1,   0, 
-	  0, };
+	  0,   0,   0,   0,   0,   0, };
 uchar *loopstate0;
-uchar reached1[3];  /* np_ */
-uchar *loopstate1;  /* np_ */
+uchar reached3[3];  /* np_ */
+uchar *loopstate3;  /* np_ */
 struct {
 	int tp; short *src;
 } src_all[] = {
+	{ 2, &src_ln2[0] },
+	{ 1, &src_ln1[0] },
 	{ 0, &src_ln0[0] },
 	{ 0, (short *) 0 }
 };
 S_F_MAP *flref[] = {
+	src_file2,
+	src_file1,
 	src_file0 
 };
 
@@ -514,9 +546,11 @@ struct {
 	{ (char *) 0, "" }
 };
 
-short Air[] = {  (short) Air0, (short) Air1 };
+short Air[] = {  (short) Air0, (short) Air1, (short) Air2, (short) Air3 };
 char *procname[] = {
-   ":init:",
+   "UserInteraction",
+   "RecommendationEngine",
+   "Watcher",
    ":np_:",
 	0
 };
@@ -524,20 +558,22 @@ char *procname[] = {
 enum btypes { NONE=0, N_CLAIM=1, I_PROC=2, A_PROC=3, P_PROC=4, E_TRACE=5, N_TRACE=6 };
 
 int Btypes[] = {
-   2,	/* :init: */
+   3,	/* UserInteraction */
+   3,	/* RecommendationEngine */
+   3,	/* Watcher */
    0	/* :np_: */
 };
 
 uchar spin_c_typ[NCLAIMS]; /* claim-types */
-uchar *accpstate[2];
-uchar *progstate[2];
-uchar *loopstate[2];
-uchar *reached[2];
-uchar *stopstate[2];
-uchar *visstate[2];
-short *mapstate[2];
+uchar *accpstate[4];
+uchar *progstate[4];
+uchar *loopstate[4];
+uchar *reached[4];
+uchar *stopstate[4];
+uchar *visstate[4];
+short *mapstate[4];
 #ifdef HAS_CODE
-	int NrStates[2];
+	int NrStates[4];
 #endif
 #ifdef TRIX
 int what_p_size(int);
@@ -694,6 +730,8 @@ addproc(int calling_pid, int priority, int n)
 	switch (n) {
 	case 0: j = sizeof(P0); break;
 	case 1: j = sizeof(P1); break;
+	case 2: j = sizeof(P2); break;
+	case 3: j = sizeof(P3); break;
 	default: Uerror("bad proc - addproc");
 	}
 	#ifdef BFS_PAR
@@ -786,16 +824,48 @@ addproc(int calling_pid, int priority, int n)
 	{	((P0 *)_this)->_pid = h;
 	}
 	switch (n) {
-	case 1:	/* np_ */
-		((P1 *)pptr(h))->_t = 1;
-		((P1 *)pptr(h))->_p = 0;
+	case 3:	/* np_ */
+		((P3 *)pptr(h))->_t = 3;
+		((P3 *)pptr(h))->_p = 0;
 #ifdef HAS_PRIORITY
-		((P1 *)pptr(h))->_priority = priority;
+		((P3 *)pptr(h))->_priority = priority;
 #endif
-		reached1[0] = 1;
-		accpstate[1][1] = 1;
+		reached3[0] = 1;
+		accpstate[3][1] = 1;
 		break;
-	case 0:	/* :init: */
+	case 2:	/* Watcher */
+		((P2 *)pptr(h))->_t = 2;
+		((P2 *)pptr(h))->_p = 3;
+#ifdef HAS_PRIORITY
+		((P2 *)pptr(h))->_priority = priority; /* was: 1 */
+#endif
+		reached2[3]=1;
+		/* params: */
+		/* locals: */
+#ifdef VAR_RANGES
+#endif
+#ifdef HAS_CODE
+		locinit2(h);
+#endif
+		break;
+	case 1:	/* RecommendationEngine */
+		((P1 *)pptr(h))->_t = 1;
+		((P1 *)pptr(h))->_p = 1;
+#ifdef HAS_PRIORITY
+		((P1 *)pptr(h))->_priority = priority; /* was: 1 */
+#endif
+		reached1[1]=1;
+		/* params: */
+		/* locals: */
+		((P1 *)pptr(h))->state = 0;
+#ifdef VAR_RANGES
+		logval("RecommendationEngine:state", ((P1 *)pptr(h))->state);
+#endif
+#ifdef HAS_CODE
+		locinit1(h);
+#endif
+		break;
+	case 0:	/* UserInteraction */
 		((P0 *)pptr(h))->_t = 0;
 		((P0 *)pptr(h))->_p = 1;
 #ifdef HAS_PRIORITY
@@ -804,12 +874,6 @@ addproc(int calling_pid, int priority, int n)
 		reached0[1]=1;
 		/* params: */
 		/* locals: */
-		((P0 *)pptr(h))->state = 0;
-		((P0 *)pptr(h))->record_created = 0;
-#ifdef VAR_RANGES
-		logval(":init::record_created", ((P0 *)pptr(h))->record_created);
-		logval(":init::state", ((P0 *)pptr(h))->state);
-#endif
 #ifdef HAS_CODE
 		locinit0(h);
 #endif
@@ -841,6 +905,8 @@ col_p(int i, char *z)
 	switch (ptr->_t) {
 	case 0: j = sizeof(P0); break;
 	case 1: j = sizeof(P1); break;
+	case 2: j = sizeof(P2); break;
+	case 3: j = sizeof(P3); break;
 	default: Uerror("bad proctype - collapse");
 	}
 	if (z) x = z; else x = scratch;
@@ -920,32 +986,55 @@ run(void)
 	settable();
 	Maxbody = max(Maxbody, ((int) sizeof(P0)));
 	Maxbody = max(Maxbody, ((int) sizeof(P1)));
+	Maxbody = max(Maxbody, ((int) sizeof(P2)));
+	Maxbody = max(Maxbody, ((int) sizeof(P3)));
 	reached[0] = reached0;
 	reached[1] = reached1;
+	reached[2] = reached2;
+	reached[3] = reached3;
 	accpstate[0] = (uchar *) emalloc(_nstates0);
 	accpstate[1] = (uchar *) emalloc(_nstates1);
+	accpstate[2] = (uchar *) emalloc(_nstates2);
+	accpstate[3] = (uchar *) emalloc(_nstates3);
 	progstate[0] = (uchar *) emalloc(_nstates0);
 	progstate[1] = (uchar *) emalloc(_nstates1);
+	progstate[2] = (uchar *) emalloc(_nstates2);
+	progstate[3] = (uchar *) emalloc(_nstates3);
 	loopstate0 = loopstate[0] = (uchar *) emalloc(_nstates0);
 	loopstate1 = loopstate[1] = (uchar *) emalloc(_nstates1);
+	loopstate2 = loopstate[2] = (uchar *) emalloc(_nstates2);
+	loopstate3 = loopstate[3] = (uchar *) emalloc(_nstates3);
 	stopstate[0] = (uchar *) emalloc(_nstates0);
 	stopstate[1] = (uchar *) emalloc(_nstates1);
+	stopstate[2] = (uchar *) emalloc(_nstates2);
+	stopstate[3] = (uchar *) emalloc(_nstates3);
 	visstate[0] = (uchar *) emalloc(_nstates0);
 	visstate[1] = (uchar *) emalloc(_nstates1);
+	visstate[2] = (uchar *) emalloc(_nstates2);
+	visstate[3] = (uchar *) emalloc(_nstates3);
 	mapstate[0] = (short *) emalloc(_nstates0 * sizeof(short));
 	mapstate[1] = (short *) emalloc(_nstates1 * sizeof(short));
+	mapstate[2] = (short *) emalloc(_nstates2 * sizeof(short));
+	mapstate[3] = (short *) emalloc(_nstates3 * sizeof(short));
 	stopstate[0][_endstate0] = 1;
 	stopstate[1][_endstate1] = 1;
+	stopstate[2][_endstate2] = 1;
+	stopstate[3][_endstate3] = 1;
 #ifdef HAS_CODE
 	NrStates[0] = _nstates0;
 	NrStates[1] = _nstates1;
+	NrStates[2] = _nstates2;
+	NrStates[3] = _nstates3;
 #endif
 
+	Maxbody = max(Maxbody, ((int) sizeof(Q1)));
 	Maxbody = max(Maxbody, sizeof(State)-VECTORSZ);
 	if ((Maxbody % WS) != 0)
 		Maxbody += WS - (Maxbody % WS);
 
 	retrans(0, _nstates0, _start0, src_ln0, reached0, loopstate0);
+	retrans(1, _nstates1, _start1, src_ln1, reached1, loopstate1);
+	retrans(2, _nstates2, _start2, src_ln2, reached2, loopstate2);
 	if (state_tables)
 	{ if (dodot) exit(0);
 	  printf("\nTransition Type: ");
@@ -12286,11 +12375,20 @@ void
 do_reach(void)
 {
 	r_ck(reached0, _nstates0, 0, src_ln0, src_file0);
+	r_ck(reached1, _nstates1, 1, src_ln1, src_file1);
+	r_ck(reached2, _nstates2, 2, src_ln2, src_file2);
 }
 
 void
 iniglobals(int calling_pid)
 {
+		now.preference_updated = 0;
+		now.done = 0;
+		now.state_chan = addqueue(calling_pid, 1, 0);
+#ifdef VAR_RANGES
+		logval("preference_updated", now.preference_updated);
+		logval("done", now.done);
+#endif
 }
 
 
@@ -12306,6 +12404,7 @@ addqueue(int calling_pid, int n, int is_rv)
 	printf("%4d: add queue %d\n", depth, i);
 #endif
 	switch (n) {
+	case 1: j = sizeof(Q1); q_flds[1] = 1; q_max[1] = 3; break;
 	default: Uerror("bad queue - addqueue");
 	}
 	#ifdef BFS_PAR
@@ -12370,6 +12469,8 @@ what_p_size(int t)
 	switch (t) {
 	case 0: j = sizeof(P0); break;
 	case 1: j = sizeof(P1); break;
+	case 2: j = sizeof(P2); break;
+	case 3: j = sizeof(P3); break;
 	default: Uerror("bad proctype");
 	}
 	return j;
@@ -12380,6 +12481,7 @@ what_q_size(int t)
 {	int j;
 	switch (t) {
 	case 0: j = sizeof(Q0); break;
+	case 1: j = sizeof(Q1); break;
 	default: Uerror("bad qtype");
 	}
 	return j;
@@ -12388,7 +12490,7 @@ what_q_size(int t)
 
 #if NQS>0
 void
-qsend(int into, int sorted, int args_given)
+qsend(int into, int sorted, int fld0, int args_given)
 {	int j; uchar *z;
 
 #ifdef HAS_SORTED
@@ -12414,6 +12516,19 @@ qsend(int into, int sorted, int args_given)
 	z = qptr(into);
 	j = ((Q0 *)qptr(into))->Qlen;
 	switch (((Q0 *)qptr(into))->_t) {
+	case 1:
+#ifdef HAS_SORTED
+		(trpt+1)->ipt = j;
+#endif
+		((Q1 *)z)->Qlen = ((Q1 *)z)->Qlen + 1;
+		((Q1 *)z)->contents[j].fld0 = fld0;	/* mtype _unnamed_ */
+		if (args_given != 1)
+		{	if (args_given > 1)
+				uerror("too many parameters in send stmnt");
+			else
+				uerror("too few parameters in send stmnt");
+		}
+		break;
 	case 0: printf("queue %d was deleted\n", into+1);
 	default: Uerror("bad queue - qsend");
 	}
@@ -12432,6 +12547,7 @@ q_zero(int from)
 		return 0;
 	}
 	switch(((Q0 *)qptr(from))->_t) {
+	case 1: return 0;
 	case 0: printf("queue %d was deleted\n", from+1);
 	}
 	Uerror("bad queue q-zero");
@@ -12533,6 +12649,7 @@ q_full(int from)
 {	if (!from--)
 	uerror("ref to uninitialized chan name (qfull)");
 	switch(((Q0 *)qptr(from))->_t) {
+	case 1: return (q_sz(from) == 3);
 	case 0: printf("queue %d was deleted\n", from+1);
 	}
 	Uerror("bad queue - q_full");
@@ -12575,6 +12692,21 @@ qrecv(int from, int slot, int fld, int done)
 		require('r', from);
 #endif
 	switch (((Q0 *)qptr(from))->_t) {
+	case 1:
+		if (fld == 0) r = ((Q1 *)z)->contents[slot].fld0;
+		if (done)
+		{	j = ((Q1 *)z)->Qlen;
+			((Q1 *)z)->Qlen = --j;
+			for (k=slot; k<j; k++)
+			{
+				((Q1 *)z)->contents[k].fld0 = 
+					((Q1 *)z)->contents[k+1].fld0;
+			}
+			((Q1 *)z)->contents[j].fld0 = 0;
+			if (fld+1 != 1)
+				uerror("missing pars in receive");
+		}
+		break;
 	case 0: printf("queue %d was deleted\n", from+1);
 	default: Uerror("bad queue - qrecv");
 	}
@@ -12590,6 +12722,7 @@ col_q(int i, char *z)
 	char *x, *y;
 	Q0 *ptr = (Q0 *) qptr(i);
 	switch (ptr->_t) {
+	case 1: j = sizeof(Q1); break;
 	default: Uerror("bad qtype - collapse");
 	}
 	if (z) x = z; else x = scratch;
@@ -12641,6 +12774,10 @@ unsend(int into)
 	j = ((Q0 *)z)->Qlen;
 	((Q0 *)z)->Qlen = --j;
 	switch (((Q0 *)qptr(into))->_t) {
+	case 1:
+		((Q1 *)z)->contents[j].fld0 = 0;
+		_m = trpt->o_m;
+		break;
 	default: Uerror("bad queue - unsend");
 	}
 	return _m;
@@ -12670,6 +12807,18 @@ unrecv(int from, int slot, int fld, int fldvar, int strt)
 	j = ((Q0 *)z)->Qlen;
 	if (strt) ((Q0 *)z)->Qlen = j+1;
 	switch (((Q0 *)qptr(from))->_t) {
+	case 1:
+		if (strt && slot<2)
+		{	for (j--; j>=slot; j--)
+			{	((Q1 *)z)->contents[j+1].fld0 =
+				((Q1 *)z)->contents[j].fld0;
+			}
+		}
+		if (strt) {
+			((Q1 *)z)->contents[slot].fld0 = 0;
+		}
+		if (fld == 0) ((Q1 *)z)->contents[slot].fld0 = fldvar;
+		break;
 	default: Uerror("bad queue - qrecv");
 	}
 }
@@ -12686,6 +12835,11 @@ q_cond(short II, Trans *t)
 #endif
 		switch (t->qu[i]) {
 		case 0: break;
+		case 1: if (	(t->ty[i] == Q_FULL_F && ( q_full((int) ( now.state_chan) )))
+			 || 	(t->ty[i] == Q_FULL_T && (!q_full((int) ( now.state_chan) )))
+			 || 	(t->ty[i] == Q_EMPT_F && ( !q_len((int) ( now.state_chan) )))
+			 || 	(t->ty[i] == Q_EMPT_T && (  q_len((int) ( now.state_chan) )))
+			    ) return 0; break;
 		default: Uerror("unknown qid - q_cond");
 				return 0;
 		}
@@ -12869,7 +13023,11 @@ active_procs(void)
 {
 	if (reversing == 0) {
 		Addproc(0, 1);
+		Addproc(1, 1);
+		Addproc(2, 1);
 	} else {
+		Addproc(2, 1);
+		Addproc(1, 1);
 		Addproc(0, 1);
 	}
 }
@@ -13985,19 +14143,27 @@ void
 c_globals(void)
 {	/* int i; */
 	printf("global vars:\n");
-	printf("	mtype  idle:	4\n");
-	printf("	mtype  viewing:	3\n");
-	printf("	mtype  recorded:	2\n");
-	printf("	mtype  recommended:	1\n");
+	printf("	mtype  COLLECTING:	3\n");
+	printf("	mtype  ANALYZING:	2\n");
+	printf("	mtype  RECOMMENDING:	1\n");
+	printf("	chan state_chan (=%d):	len %d:\t", now.state_chan, q_len(now.state_chan));
+	c_chandump(now.state_chan);
+	printf("	bit    preference_updated:	%d\n", now.preference_updated);
+	printf("	bit    done:	%d\n", now.done);
 }
 void
 c_locals(int pid, int tp)
 {	/* int i; */
 	switch(tp) {
+	case 2:
+		/* none */
+		break;
+	case 1:
+		printf("local vars proc %d (RecommendationEngine):\n", pid);
+	printf("	mtype  state:	%d\n", ((P1 *)pptr(pid))->state);
+		break;
 	case 0:
-		printf("local vars proc %d (:init:):\n", pid);
-	printf("	mtype  state:	%d\n", ((P0 *)pptr(pid))->state);
-	printf("	bit    record_created:	%d\n", ((P0 *)pptr(pid))->record_created);
+		/* none */
 		break;
 	}
 }
@@ -14007,19 +14173,34 @@ printm(int x, char *s)
 	if (!s) { s = "_unnamed_"; }
 	if (strcmp(s, "_unnamed_") == 0)
 	switch (x) {
-	case 1: Printf("recommended"); return;
-	case 2: Printf("recorded"); return;
-	case 3: Printf("viewing"); return;
-	case 4: Printf("idle"); return;
+	case 1: Printf("RECOMMENDING"); return;
+	case 2: Printf("ANALYZING"); return;
+	case 3: Printf("COLLECTING"); return;
 	default: Printf("%d", x); return;
 	}
 }
 void
-c_chandump(int unused)
-{	unused++; /* avoid complaints */
+c_chandump(int from)
+{	uchar *z; int slot;
+	from--;
+	if (from >= (int) now._nr_qs || from < 0)
+	{	printf("pan: bad qid %d\n", from+1);
+		return;
+	}
+	z = qptr(from);
+	switch (((Q0 *)z)->_t) {
+	case 1:
+		for (slot = 0; slot < ((Q1 *)z)->Qlen; slot++)
+		{	printf(" [");
+			printm(((Q1 *)z)->contents[slot].fld0, 0);
+			printf("],");
+		}
+		break;
+	}
+	printf("\n");
 }
 
-Trans *t_id_lkup[15];
+Trans *t_id_lkup[22];
 
 
 #ifdef BFS_PAR

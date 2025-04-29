@@ -19,113 +19,150 @@
 		if (trpt->o_pm&1) continue;
 		_m = 3; goto P999;
 
-		 /* PROC :init: */
-	case 3: // STATE 1 - recommendation_model.pml:11 - [state = idle] (0:13:7 - 1)
+		 /* PROC Watcher */
+	case 3: // STATE 1 - recommendation_model.pml:35 - [(done)] (0:0:0 - 1)
+		IfNotBlocked
+		reached[2][1] = 1;
+		if (!(((int)now.done)))
+			continue;
+		_m = 3; goto P999; /* 0 */
+	case 4: // STATE 6 - recommendation_model.pml:37 - [-end-] (0:0:0 - 3)
+		IfNotBlocked
+		reached[2][6] = 1;
+		if (!delproc(1, II)) continue;
+		_m = 3; goto P999; /* 0 */
+
+		 /* PROC RecommendationEngine */
+	case 5: // STATE 1 - recommendation_model.pml:19 - [state_chan?state] (0:0:1 - 1)
+		reached[1][1] = 1;
+		if (q_len(now.state_chan) == 0) continue;
+
+		XX=1;
+		(trpt+1)->bup.oval = ((P1 *)_this)->state;
+		;
+		((P1 *)_this)->state = qrecv(now.state_chan, XX-1, 0, 1);
+#ifdef VAR_RANGES
+		logval("RecommendationEngine:state", ((P1 *)_this)->state);
+#endif
+		;
+		
+#ifdef HAS_CODE
+		if (readtrail && gui) {
+			char simtmp[32];
+			sprintf(simvals, "%d?", now.state_chan);
+		sprintf(simtmp, "%d", ((P1 *)_this)->state); strcat(simvals, simtmp);		}
+#endif
+		;
+		_m = 4; goto P999; /* 0 */
+	case 6: // STATE 2 - recommendation_model.pml:20 - [assert((state==COLLECTING))] (0:0:0 - 1)
+		IfNotBlocked
+		reached[1][2] = 1;
+		spin_assert((((P1 *)_this)->state==3), "(state==3)", II, tt, t);
+		_m = 3; goto P999; /* 0 */
+	case 7: // STATE 3 - recommendation_model.pml:22 - [state_chan?state] (0:0:1 - 1)
+		reached[1][3] = 1;
+		if (q_len(now.state_chan) == 0) continue;
+
+		XX=1;
+		(trpt+1)->bup.oval = ((P1 *)_this)->state;
+		;
+		((P1 *)_this)->state = qrecv(now.state_chan, XX-1, 0, 1);
+#ifdef VAR_RANGES
+		logval("RecommendationEngine:state", ((P1 *)_this)->state);
+#endif
+		;
+		
+#ifdef HAS_CODE
+		if (readtrail && gui) {
+			char simtmp[32];
+			sprintf(simvals, "%d?", now.state_chan);
+		sprintf(simtmp, "%d", ((P1 *)_this)->state); strcat(simvals, simtmp);		}
+#endif
+		;
+		_m = 4; goto P999; /* 0 */
+	case 8: // STATE 4 - recommendation_model.pml:23 - [assert((state==ANALYZING))] (0:0:0 - 1)
+		IfNotBlocked
+		reached[1][4] = 1;
+		spin_assert((((P1 *)_this)->state==2), "(state==2)", II, tt, t);
+		_m = 3; goto P999; /* 0 */
+	case 9: // STATE 5 - recommendation_model.pml:26 - [(preference_updated)] (0:0:0 - 1)
+		IfNotBlocked
+		reached[1][5] = 1;
+		if (!(((int)now.preference_updated)))
+			continue;
+		_m = 3; goto P999; /* 0 */
+	case 10: // STATE 6 - recommendation_model.pml:26 - [state_chan!RECOMMENDING] (0:0:0 - 1)
+		IfNotBlocked
+		reached[1][6] = 1;
+		if (q_full(now.state_chan))
+			continue;
+#ifdef HAS_CODE
+		if (readtrail && gui) {
+			char simtmp[64];
+			sprintf(simvals, "%d!", now.state_chan);
+		sprintf(simtmp, "%d", 1); strcat(simvals, simtmp);		}
+#endif
+		
+		qsend(now.state_chan, 0, 1, 1);
+		_m = 2; goto P999; /* 0 */
+	case 11: // STATE 11 - recommendation_model.pml:30 - [done = 1] (0:0:1 - 3)
+		IfNotBlocked
+		reached[1][11] = 1;
+		(trpt+1)->bup.oval = ((int)now.done);
+		now.done = 1;
+#ifdef VAR_RANGES
+		logval("done", ((int)now.done));
+#endif
+		;
+		_m = 3; goto P999; /* 0 */
+	case 12: // STATE 12 - recommendation_model.pml:31 - [-end-] (0:0:0 - 1)
+		IfNotBlocked
+		reached[1][12] = 1;
+		if (!delproc(1, II)) continue;
+		_m = 3; goto P999; /* 0 */
+
+		 /* PROC UserInteraction */
+	case 13: // STATE 1 - recommendation_model.pml:11 - [state_chan!COLLECTING] (0:0:0 - 1)
 		IfNotBlocked
 		reached[0][1] = 1;
-		(trpt+1)->bup.ovals = grab_ints(7);
-		(trpt+1)->bup.ovals[0] = ((P0 *)_this)->state;
-		((P0 *)_this)->state = 4;
-#ifdef VAR_RANGES
-		logval(":init::state", ((P0 *)_this)->state);
-#endif
-		;
-		if (TstOnly) return 1; /* TT */
-		/* dead 2: state */  
-#ifdef HAS_CODE
-		if (!readtrail)
-#endif
-			((P0 *)_this)->state = 0;
-		/* merge: state = viewing(13, 2, 13) */
-		reached[0][2] = 1;
-		(trpt+1)->bup.ovals[1] = ((P0 *)_this)->state;
-		((P0 *)_this)->state = 3;
-#ifdef VAR_RANGES
-		logval(":init::state", ((P0 *)_this)->state);
-#endif
-		;
-		if (TstOnly) return 1; /* TT */
-		/* dead 2: state */  
-#ifdef HAS_CODE
-		if (!readtrail)
-#endif
-			((P0 *)_this)->state = 0;
-		/* merge: printf('User is viewing content\\n')(13, 3, 13) */
-		reached[0][3] = 1;
-		Printf("User is viewing content\n");
-		/* merge: record_created = 1(13, 4, 13) */
-		reached[0][4] = 1;
-		(trpt+1)->bup.ovals[2] = ((int)((P0 *)_this)->record_created);
-		((P0 *)_this)->record_created = 1;
-#ifdef VAR_RANGES
-		logval(":init::record_created", ((int)((P0 *)_this)->record_created));
-#endif
-		;
-		/* merge: state = recorded(13, 5, 13) */
-		reached[0][5] = 1;
-		(trpt+1)->bup.ovals[3] = ((P0 *)_this)->state;
-		((P0 *)_this)->state = 2;
-#ifdef VAR_RANGES
-		logval(":init::state", ((P0 *)_this)->state);
-#endif
-		;
-		if (TstOnly) return 1; /* TT */
-		/* dead 2: state */  
-#ifdef HAS_CODE
-		if (!readtrail)
-#endif
-			((P0 *)_this)->state = 0;
-		/* merge: printf('Viewing record created\\n')(13, 6, 13) */
-		reached[0][6] = 1;
-		Printf("Viewing record created\n");
-		_m = 3; goto P999; /* 5 */
-	case 4: // STATE 7 - recommendation_model.pml:24 - [(record_created)] (15:0:3 - 1)
-		IfNotBlocked
-		reached[0][7] = 1;
-		if (!(((int)((P0 *)_this)->record_created)))
+		if (q_full(now.state_chan))
 			continue;
-		if (TstOnly) return 1; /* TT */
-		/* dead 1: record_created */  (trpt+1)->bup.ovals = grab_ints(3);
-		(trpt+1)->bup.ovals[0] = ((P0 *)_this)->record_created;
 #ifdef HAS_CODE
-		if (!readtrail)
+		if (readtrail && gui) {
+			char simtmp[64];
+			sprintf(simvals, "%d!", now.state_chan);
+		sprintf(simtmp, "%d", 3); strcat(simvals, simtmp);		}
 #endif
-			((P0 *)_this)->record_created = 0;
-		/* merge: state = recommended(15, 8, 15) */
-		reached[0][8] = 1;
-		(trpt+1)->bup.ovals[1] = ((P0 *)_this)->state;
-		((P0 *)_this)->state = 1;
+		
+		qsend(now.state_chan, 0, 3, 1);
+		_m = 2; goto P999; /* 0 */
+	case 14: // STATE 2 - recommendation_model.pml:12 - [preference_updated = 1] (0:0:1 - 1)
+		IfNotBlocked
+		reached[0][2] = 1;
+		(trpt+1)->bup.oval = ((int)now.preference_updated);
+		now.preference_updated = 1;
 #ifdef VAR_RANGES
-		logval(":init::state", ((P0 *)_this)->state);
+		logval("preference_updated", ((int)now.preference_updated));
 #endif
 		;
-		if (TstOnly) return 1; /* TT */
-		/* dead 2: state */  
+		_m = 3; goto P999; /* 0 */
+	case 15: // STATE 3 - recommendation_model.pml:13 - [state_chan!ANALYZING] (0:0:0 - 1)
+		IfNotBlocked
+		reached[0][3] = 1;
+		if (q_full(now.state_chan))
+			continue;
 #ifdef HAS_CODE
-		if (!readtrail)
+		if (readtrail && gui) {
+			char simtmp[64];
+			sprintf(simvals, "%d!", now.state_chan);
+		sprintf(simtmp, "%d", 2); strcat(simvals, simtmp);		}
 #endif
-			((P0 *)_this)->state = 0;
-		/* merge: printf('Recommendations generated successfully\\n')(15, 9, 15) */
-		reached[0][9] = 1;
-		Printf("Recommendations generated successfully\n");
-		/* merge: .(goto)(0, 14, 15) */
-		reached[0][14] = 1;
-		;
-		_m = 3; goto P999; /* 3 */
-	case 5: // STATE 11 - recommendation_model.pml:28 - [printf('ERROR: Recommendation generated before viewing record!\\n')] (0:15:0 - 1)
+		
+		qsend(now.state_chan, 0, 2, 1);
+		_m = 2; goto P999; /* 0 */
+	case 16: // STATE 4 - recommendation_model.pml:14 - [-end-] (0:0:0 - 1)
 		IfNotBlocked
-		reached[0][11] = 1;
-		Printf("ERROR: Recommendation generated before viewing record!\n");
-		/* merge: assert(0)(15, 12, 15) */
-		reached[0][12] = 1;
-		spin_assert(0, "0", II, tt, t);
-		/* merge: .(goto)(0, 14, 15) */
-		reached[0][14] = 1;
-		;
-		_m = 3; goto P999; /* 2 */
-	case 6: // STATE 15 - recommendation_model.pml:31 - [-end-] (0:0:0 - 3)
-		IfNotBlocked
-		reached[0][15] = 1;
+		reached[0][4] = 1;
 		if (!delproc(1, II)) continue;
 		_m = 3; goto P999; /* 0 */
 	case  _T5:	/* np_ */
